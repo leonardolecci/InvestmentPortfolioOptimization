@@ -8,16 +8,23 @@
 
 library(quantmod)
 
-# Step 1: pulling in pricing data
-# Novo-Nordisk A/S ADS (NVO)
-stock1 <- getSymbols("NVO", auto.assign = FALSE)
-# Tesla (TSLA)
-stock2 <- getSymbols("TSLA", auto.assign = FALSE)
-# Kroger Co. (KR)
-stock3 <- getSymbols("KR", auto.assign = FALSE)
 
-# Step 2: combining the data frames gathered
-joined_prices <- merge.xts(stock1, stock2, stock3)
+# Step 1: pulling in pricing data and combining the data frames gathered
+# Create loop for code efficiency
+# Create vector with all the symbols we want to get
 
-# Step 3: pulling in only adjusted prices
+stocks_vector <- c("NVO", "TSLA", "KR")
+length_vector <- length(stocks_vector)
+
+# Creating the actual loop
+#initializing joined_prices df
+
+joined_prices <- NULL
+for(i in 1:length_vector){
+  stock_values <- NULL
+  stock_values <- getSymbols(stocks_vector[i], auto.assign = FALSE)
+  joined_prices <- cbind(joined_prices, stock_values)
+}
+
+# Step 2: pulling in only adjusted prices
 joined_prices_only <- joined_prices[,c(6,12,18)]
