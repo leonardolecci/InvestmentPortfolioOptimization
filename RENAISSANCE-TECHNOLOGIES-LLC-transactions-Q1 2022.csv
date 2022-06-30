@@ -1,0 +1,856 @@
+Stock,Symbol
+Novo-nordisk a/s ads,NVO
+Tesla inc,TSLA
+Kroger co.,KR
+Gilead sciences inc.,GILD
+Verisign inc.,VRSN
+Apple inc,AAPL
+Advanced micro devices inc,AMD
+Atlassian corp plc,TEAM
+Zoom video communications inc,ZM
+Amazon.com inc.,AMZN
+Meta platforms inc,META
+Hershey company (the),HSY
+Moderna inc,MRNA
+Franco-nevada corp,FNV
+Alphabet inc. class a,GOOGL
+Mcdonalds corp.,MCD
+Molina healthcare inc,MOH
+Airbnb  inc.,ABNB
+Home depot  inc. (the),HD
+Monster beverage corp.,MNST
+Verizon communications (bell atlantic corp.),VZ
+Exxonmobil corp. (standard oil of new jersey),XOM
+United therapeutics corp,UTHR
+Abiomed inc,ABMD
+Vodafone group plc sponsored adr,VOD
+Vertex pharmaceuticals  inc.,VRTX
+Glaxosmithkline plc adr,GSK
+Colgate-palmolive co.,CL
+Dominos pizza inc,DPZ
+Merck & co,MRK
+Wells fargo & co.  (northwest bancorporation),WFC
+Exelixis inc,EXEL
+Alphabet inc. class c,GOOG
+National grid plc adr,NGG
+Incyte corporation,INCY
+Abbott laboratories,ABT
+Target corp.,TGT
+Roku inc,ROKU
+Pepsico inc. (loft  inc.),PEP
+Lowes companies  inc.,LOW
+Fortinet inc,FTNT
+Alcoa corp,AA
+Coca cola co.,KO
+Pfizer  inc.,PFE
+Icon plc ads,ICLR
+Astrazeneca plc,AZN
+General mills co.,GIS
+Novartis ag ads,NVS
+Zim integrated shipping services ltd,ZIM
+Charter communications inc,CHTR
+Pinterest inc,PINS
+Activision blizzard inc,ATVI
+Bank of america corp. (north carolina national bank),BAC
+Union pacific corp.,UNP
+Qualcomm inc.,QCOM
+F5 networks inc,FFIV
+Cboe global markets inc,CBOE
+Petroleo brasileiro sa (petrobras) adr,PBR
+Philip morris international inc,PM
+Herbalife nutrition ltd,HLF
+Carrier global corp.,CARR
+Danaher corp.,DHR
+Csx corp,CSX
+Jazz pharmaceuticals plc,JAZZ
+Procter & gamble co. (oh) (1905),PG
+Barrick gold corp,GOLD
+Comcast corp.  class a,CMCSA
+Cerner corp.,CERN
+Eqt corporation (equitable gas co.),EQT
+Biogen inc,BIIB
+Horizon therapeutics plc,HZNP
+Roblox corp. class a,RBLX
+3m co. (minnesota mining & manufacturing),MMM
+Coinbase global inc,COIN
+Altria group  inc. (philip morris),MO
+Regeneron pharmaceuticals inc.,REGN
+Agnico-eagle mines  ltd,AEM
+Bristol-myers squibb co,BMY
+Twilio inc,TWLO
+Dropbox inc,DBX
+Mondelez international inc. (kraft foods),MDLZ
+Starbucks corp.,SBUX
+Sprouts farmers market inc,SFM
+Clorox co.,CLX
+Blackrock inc. class a,BLK
+First republic bank (ca),FRC
+Duke energy corp.,DUK
+Fortis inc,FTS
+Linde plc (praxair inc.),LIN
+National beverage corp,FIZZ
+Phillips 66,PSX
+Snowflake  inc.,SNOW
+Corcept therapeutics inc,CORT
+Zoetis  inc.,ZTS
+Virtu financial inc,VIRT
+Palantir technologies inc.,PLTR
+Air products & chemicals inc,APD
+Rogers communications inc. class b (nyse),RCI
+Zscaler inc,ZS
+Keurig dr pepper inc,KDP
+Agilent technologies inc,A
+Lockheed martin corp.,LMT
+Cloudflare inc,NET
+Ecolab inc.,ECL
+United parcel service  inc. class b,UPS
+Jpmorgan chase & co. (chemical bank),JPM
+Visa inc,V
+Chunghwa telecom co. ltd adr,CHT
+Quest diagnostics  inc.,DGX
+Flowers foods,FLO
+Abbvie inc,ABBV
+Newmont mining corp. (holding co.),NEM
+Cable one inc,CABO
+Campbell soup co.,CPB
+B2gold corp,BTG
+Corvel corp.,CRVL
+Public storage  inc.,PSA
+Kinross gold corp. adr,KGC
+Cogent communications group inc,CCOI
+Allison transmission holdings inc,ALSN
+New york times co. class a,NYT
+Hormel foods corp.,HRL
+Pacira biosciences inc,PCRX
+P.t. telekomunikasi indonesia adr,TLK
+Valero energy corp.,VLO
+Shell plc,SHEL
+Kkr & co. inc,KKR
+Boeing company,BA
+Chevron corp. (standard oil of california),CVX
+Wheaton precious metals corp,WPM
+Firstservice corp,FSV
+Wec energy group (wisconsin electric power),WEC
+Medifast inc,MED
+Smucker (j.m.) co.,SJM
+Alkermes plc.,ALKS
+Nu skin enterprises inc. class a,NUS
+Cheniere energy inc,LNG
+Ubiquiti inc,UI
+Commvault systems inc,CVLT
+Cbre group inc common stock class a,CBRE
+Oreilly automotive inc.,ORLY
+Neurocrine biosciences inc.,NBIX
+Southern co.,SO
+Itau unibnco adr,ITUB
+Cosan sa,CSAN
+Inmode ltd,INMD
+Walmart inc,WMT
+Msci inc,MSCI
+Garmin ltd,GRMN
+Tjx companies inc.,TJX
+Kellogg co.,K
+Li auto inc. ads,LI
+Coupa software inc,COUP
+Nio inc,NIO
+Gold fields ltd adr,GFI
+Morningstar inc,MORN
+Usana health sciences inc.,USNA
+Schlumberger ltd.,SLB
+Docusign inc,DOCU
+Tyson foods  inc.,TSN
+Grupo aeroportuario del pacifico  s.a.b de c.v. adr,PAC
+Baxter international inc.,BAX
+China petroleum & chemical corp. sponsored adr,SNP
+Nova measuring instruments ltd,NVMI
+Workiva inc,WK
+General electric co,GE
+Norfolk southern corp.,NSC
+Colliers international group inc,CIGI
+Dr. reddys laboratories ltd adr,RDY
+Bio-rad laboratories inc class a,BIO
+Philippine long distance telephone co adr,PHI
+Snap inc class a,SNAP
+Murphy usa inc,MUSA
+Illumina inc,ILMN
+Twitter inc,TWTR
+General motors co,GM
+Costco co.,COST
+Nokia corp. adr class a adr,NOK
+Expeditors international of washington inc,EXPD
+Yamana gold inc.,AUY
+Xylem inc,XYL
+Innoviva inc,INVA
+Sanderson farms  inc.,SAFM
+Vector group ltd. (liggett group inc. - brooke group ltd.),VGR
+Shaw communications inc class b,SJR
+Laboratory corp of america holdings,LH
+Chubb limited,CB
+Hologic inc.,HOLX
+Simon property group  inc.,SPG
+Nomad foods ltd,NOMD
+Te connectivity ltd,TEL
+Trane technologies plc,TT
+Ryanair holdings adr,RYAAY
+Camden property trust,CPT
+Hsbc holdings plc adr,HSBC
+Premier inc,PINC
+Marriott international inc/md,MAR
+Nasdaq inc,NDAQ
+Macys inc,M
+Papa johns international inc.,PZZA
+Amgen  inc.,AMGN
+Illinois tool works inc,ITW
+Telus corp. non-voting shares,TU
+Corning inc.,GLW
+Mp materials corp,MP
+Blackstone group inc,BX
+Valvoline inc,VVV
+Public service enterprise group inc,PEG
+Coca-cola femsa  s.a.b. de c.v. adr,KOF
+Crowdstrike holdings inc,CRWD
+Walgreens boots alliance inc.,WBA
+Shutterstock inc,SSTK
+Bath & body works inc (l brands),BBWI
+Asml holding nv (adr),ASML
+V.f. corp. (vanity fair mills inc.),VFC
+Pinduoduo inc,PDD
+At&t inc. (southwestern bell - sbc corp.),T
+Mid-america apartment communities  inc.,MAA
+Ringcentral inc,RNG
+Old dominion freight line inc,ODFL
+Liberty global plc class a,LBTYA
+Eog resources inc,EOG
+Rio tinto plc (nyse) adr,RIO
+Bp plc adr (british petroleum),BP
+Tfs financial corp,TFSL
+Crown castle international corp,CCI
+Copart inc.,CPRT
+Extra space storage  inc.,EXR
+Booking holdings inc. (priceline),BKNG
+Warrior met coal inc,HCC
+Zebra technologies corp,ZBRA
+Cvs health corp. (melville shoe),CVS
+Aon plc,AON
+Tenaris sa ads adr,TS
+Celanese corp,CE
+Teledyne technologies  inc.,TDY
+First solar inc,FSLR
+Royal gold inc,RGLD
+Casella waste systems inc,CWST
+Alamos gold inc,AGI
+Independence realty trust inc,IRT
+Star bulk carriers corp,SBLK
+Penn national gaming inc.,PENN
+Progressive corp.,PGR
+The trade desk inc class a,TTD
+Antero resources corp,AR
+Mercury general corp.,MCY
+Bunge ltd. adr,BG
+Monolithic power systems inc,MPWR
+Dow inc,DOW
+Conagra brands inc,CAG
+Doordash  inc.,DASH
+U.s. silica holdings  inc.,SLCA
+Marsh & mclennan companies  inc.,MMC
+Yum! brands  inc. (tricon global restaurants),YUM
+Electronic arts  inc.,EA
+Sturm  ruger & co.  inc.,RGR
+Liberty global plc class c,LBTYK
+Western digital corp,WDC
+Occidental petroleum corp.,OXY
+Modivcare inc,MODV
+Workday inc,WDAY
+Netapp inc.,NTAP
+Kinder morgan inc. (de),KMI
+Okta inc,OKTA
+Halliburton co.,HAL
+Wns (holdings) ltd adr,WNS
+S&p global inc. (mcgraw-hill inc.),SPGI
+Church & dwight co.  inc.,CHD
+Fomento economico mexicano s.a.b. de cv adr,FMX
+Dell technologies inc,DELL
+Brookfield renewable corporation class a,BEPC
+Owens & minor  inc (holding co.),OMI
+Radware ltd.,RDWR
+Cme group inc,CME
+Cal-maine foods inc,CALM
+Chemed corporation,CHE
+Lennar corp. class a,LEN
+Uipath inc,PATH
+Johnson controls international plc (tyco laboratories),JCI
+Otis worldwide corp,OTIS
+American electric power company inc,AEP
+Asana  inc.,ASAN
+Csg systems international inc.,CSGS
+Medpace holdings inc,MEDP
+Calix inc,CALX
+Paycom software inc,PAYC
+Synchrony financial,SYF
+Digital realty trust  inc.,DLR
+Iamgold corp,IAG
+Ambarella inc,AMBA
+Chesapeake energy corp,CHK
+Lyondellbasell industries nv,LYB
+Grupo televisa s.a. gdr,TV
+Brady corp. class a,BRC
+Hello group inc adr,MOMO
+Progress software corp.,PRGS
+Brookdale senior living inc.,BKD
+Lancaster colony corp.,LANC
+Ametek inc.,AME
+Cms energy corp. (consumers power co.),CMS
+Service corp. international  inc.,SCI
+America movil s.a.b. de c.v. ads,AMX
+Techtarget inc,TTGT
+Under armour inc,UAA
+Royal bank of canada (nyse),RY
+Dollar tree inc.,DLTR
+Six flags entertainment corp.,SIX
+Relx plc adr,RELX
+Cadence design systems  inc.,CDNS
+Willis towers watson public limited co,WTW
+New york community bancorp,NYCB
+Now inc,DNOW
+Amn healthcare services inc,AMN
+Ceridian hcm holding inc,CDAY
+Peabody energy corp,BTU
+Kearny financial corp,KRNY
+Equinor asa,EQNR
+Conocophillips (phillips petroleum),COP
+Mobile telesystems ojsc ads adr,MBT
+Aflac inc.,AFL
+Adobe systems  inc.,ADBE
+Capitol federal financial inc,CFFN
+T. rowe price group,TROW
+C3ai  inc.,AI
+Keysight technologies inc,KEYS
+Pan american silver corp,PAAS
+Ssr mining,SSRM
+Arcelormittal s.a.  sponsored adr,MT
+Titan international  inc.,TWI
+Hartford financial services group,HIG
+Baidu inc adr,BIDU
+Nordstrom inc.,JWN
+Evertec  inc.,EVTC
+Costar group inc,CSGP
+Eldorado gold corp,EGO
+Perdoceo education corp. (career education),PRDO
+Olin corp. (mathieson chemical),OLN
+Nvr inc,NVR
+Robinhood markets inc,HOOD
+Zoominfo technologies inc.,ZI
+Invs real estate trust,CSR
+Trex company,TREX
+Geopark ltd,GPRK
+Manulife financial corp,MFC
+Gamestop corp.  class a,GME
+Open text corp.,OTEX
+Chipmos technologies inc,IMOS
+Ecopetrol s.a. adr,EC
+Heidrick & struggles international inc,HSII
+Albertsons companies  inc.,ACI
+Packaging corp. of america,PKG
+Coty inc.,COTY
+W d-40 co,WDFC
+Equity lifestyle properties inc,ELS
+Insulet corp,PODD
+Echostar corp.,SATS
+Gladstone commercial corp,GOOD
+National storage affiliates trust,NSA
+Pentair plc,PNR
+Skillz inc,SKLZ
+Becton  dickinson and co.,BDX
+Builders firstsource inc,BLDR
+Johnson & johnson co.,JNJ
+Arthur j. gallagher & co inc,AJG
+Meridian bioscience inc,VIVO
+Waste connections inc,WCN
+Newell brands inc,NWL
+National bank holdings corp,NBHC
+Amphenol corp. (1987),APH
+Zillow group inc class c,Z
+Teradyne inc,TER
+Dte energy co. (detroit edison),DTE
+Sm energy co,SM
+Crescent point energy corp,CPG
+Restaurant brands international inc,QSR
+Ebay inc.,EBAY
+Amc entertainment holdings inc,AMC
+Golden ocean group limited,GOGL
+Academy sports and outdoors  inc.,ASO
+Varonis systems inc,VRNS
+Interdigital  inc.,IDCC
+Centennial resource development inc,CDEV
+American airlines group inc,AAL
+Seagate technology plc,STX
+Carriage services inc. class a,CSV
+Crispr therapeutics ag,CRSP
+Forrester research inc,FORR
+Host hotels& resorts inc,HST
+Pam transportation services inc,PTSI
+Enanta pharmaceuticals inc,ENTA
+New oriental education & tech group inc adr,EDU
+Biontech se adr,BNTX
+Apollo global management inc,APO
+Cdw corp.,CDW
+Logitech international sa adr,LOGI
+Idt corp. class b,IDT
+Healthcare realty trust inc,HR
+Ipg photonics corp,IPGP
+Arch coal inc,ARCH
+Microstrategy inc.,MSTR
+Pnm resources  inc.,PNM
+Repligen corp.,RGEN
+Vistra energy corp,VST
+Apartment income reit corp.,AIRC
+Kraft heinz co. (the),KHC
+Datadog inc,DDOG
+Range resources corp.,RRC
+Smith & wesson brands inc. (american outdoor brands),SWBI
+Check point software technologies ltd,CHKP
+Grainger (w.w.) inc.,GWW
+Enova international inc,ENVA
+Berkeley (w.r.) corp.,WRB
+Sba communications corp.,SBAC
+Clean harbors inc.,CLH
+Enbridge  inc. (interprovincial pipe line system - ipl energy),ENB
+Whirlpool corp. (de),WHR
+Cliffs natural resources inc.,CLF
+Hanesbrands  inc.,HBI
+Supernus pharmaceuticals inc,SUPN
+Alpha metallurgical resources inc.,AMR
+Synopsys inc.,SNPS
+A10 networks inc,ATEN
+Alexandria real estate equities  inc.,ARE
+Genmab a/s,GMAB
+Koninklijke philips electronics nv adr,PHG
+Ironwood pharmaceuticals inc,IRWD
+Federal realty investment trust,FRT
+Ppl corp. (pennsylvania power & light),PPL
+Saia inc,SAIA
+Frontdoor inc,FTDR
+Sealed air corp.,SEE
+Equity commonwealth inc.,EQC
+National healthcare corp,NHC
+Endo international plc,ENDP
+Fiverr international ltd,FVRR
+Republic services inc.,RSG
+California resources corp.,CRC
+Spotify technology sa,SPOT
+Biomarin pharmaceutical inc,BMRN
+Getty realty corp.,GTY
+Wayfair inc class a,W
+Costamare inc,CMRE
+Idex corp.,IEX
+Liquidity services inc,LQDT
+Oge energy corp. (oklahoma gas & electric),OGE
+Ritchie brothers auctioneers  inc.,RBA
+Xcel energy inc. (northern states power co. (mn)),XEL
+Allegion plc,ALLE
+Watsco inc.,WSO
+Vanda pharmaceuticals inc,VNDA
+Masco corp.,MAS
+Embraer s.a. adr,ERJ
+World wrestling entertainment inc,WWE
+Hasbro inc.,HAS
+Transocean ltd,RIG
+Rex american resources corp.,REX
+Pembina pipeline corp,PBA
+Siteone landscape supply inc,SITE
+Intercontinental exchange inc,ICE
+Stoneco ltd,STNE
+Balchem corp.,BCPC
+Clearway energy inc,CWEN
+Store capital corp,STOR
+U.s. bancorp (first national bank of cincinnati),USB
+Winmark corp,WINA
+Fortune brands home & security inc,FBHS
+Emerson electric co.,EMR
+Nexpoint residential trust inc,NXRT
+Itt inc. (international telephone and telegraph),ITT
+Silicon laboratories inc,SLAB
+Travere therapeutics inc,TVTX
+Stanley black & decker inc.,SWK
+Univar solutions inc,UNVR
+Honda motor co ltd. adr (honda giken kogyo kabushiki kaisha) adr,HMC
+Mandiant inc,MNDT
+Bjs wholesale club holdings inc,BJ
+Ennis inc.,EBF
+Spartannash co,SPTN
+Banco de chile adr,BCH
+Sun life financial inc,SLF
+American software inc. class a,AMSWA
+Buckle inc,BKE
+Carlyle group inc,CG
+Avalara inc,AVLR
+Quidel corp.,QDEL
+Technipfmc plc ordinary share (fmc technologies),FTI
+Hecla mining co. (par $0.25),HL
+Cenovus energy inc,CVE
+Seaworld entertainment  inc.,SEAS
+Trimble navigation ltd.,TRMB
+Axis capital holdings ltd,AXS
+Expedia group inc,EXPE
+Imax corp,IMAX
+Consolidated edison co. of new york inc. (consolidated gas co. of new york),ED
+Petrochina co ltd adr,PTR
+Yeti holdings inc,YETI
+Waterstone financial inc,WSBF
+Encompass health corp,EHC
+Teladoc health inc,TDOC
+Burlington stores inc,BURL
+Cemex s.a. de c.v. series a (sponsored adr) adr,CX
+Mccormick & co. non-voting shares,MKC
+Everest re group ltd.,RE
+Canon inc. adr,CAJ
+Rexford industrial realty inc,REXR
+Waters corporation,WAT
+Hostess brands inc class a,TWNK
+Maravai lifesciences holdings  inc.,MRVI
+The hackett group inc,HCKT
+Mettler-toledo international  inc.,MTD
+Watts water technologies  inc.,WTS
+Dover corp.,DOV
+Pure storage inc,PSTG
+Monday.com ltd,MNDY
+Bank of montreal (nyse),BMO
+Cnx resources corporation,CNX
+Nordson corporation,NDSN
+Chase corp.,CCF
+United microelectronics corp. adr,UMC
+Stellantis nv,STLA
+Surmodics  inc.,SRDX
+Fluor corp.,FLR
+Myers industries inc.,MYE
+Sohucom ltd ads,SOHU
+Star peak energy transition corp,STEM
+Veeva systems inc,VEEV
+Thomson reuters corp.,TRI
+Avery dennison corp.,AVY
+Ke holdings inc.,BEKE
+Suzano papel e celulose sa,SUZ
+Re/max holdings inc,RMAX
+Iradimed corp,IRMD
+Smith (a.o.) corp.  class b,AOS
+Perion network ltd,PERI
+Atrion corp.,ATRI
+Old republic international corp.,ORI
+Stantec inc,STN
+Terex corp. (northwest engineering co.),TEX
+Haverty furniture companies  inc.,HVT
+Lilly (eli) & co.,LLY
+Industrias bachoco s.a. de c.v. ads adr,IBA
+Mr cooper group inc,COOP
+News inc. class a,NWSA
+Central garden & pet co. class a,CENTA
+Xpo logistics inc,XPO
+Chicos fas inc,CHS
+Taro pharmaceutical industries ltd,TARO
+Cra international inc.,CRAI
+New gold inc. adr,NGD
+Sprout social  inc.,SPT
+Ross stores inc. (de),ROST
+Unitil corp,UTL
+Macerich company (the),MAC
+Regency centers corp,REG
+Arcbest corp,ARCB
+Weis markets inc,WMK
+City office reit inc,CIO
+Takeda pharmaceutical co ltd,TAK
+Tc energy corp,TRP
+Ituran location and control ltd,ITRN
+Independent bank corp. (ma),INDB
+On semiconductor corp,ON
+Camtek ltd,CAMT
+Seaboard corp. (hathaway bakeries),SEB
+Patterson-uti energy inc,PTEN
+Xpeng inc.,XPEV
+Sjw group (san jose water co.),SJW
+Sitime corp,SITM
+Sap se adr,SAP
+Ufp technologies inc.,UFPT
+Iridium communications inc,IRDM
+Fubotv inc,FUBO
+Transalta corp. adr,TAC
+Hess corp,HES
+Bwx technologies inc,BWXT
+Nice ltd adr,NICE
+Evercore inc. class a,EVR
+Cgi inc,GIB
+Revolve group inc,RVLV
+Cf industries holdings inc,CF
+Quanex building products,NX
+Stewart information services corp.,STC
+Mdu resources group,MDU
+Tenable holdings inc,TENB
+Brown & brown inc.,BRO
+Atlantica sustainable infrastr plc,AY
+Armada hoffler properties inc,AHH
+Foot locker inc. (f. w. woolworth),FL
+Hca healthcare inc,HCA
+Knight transportation inc.,KNX
+Kimberly-clark corp.,KMB
+Archer-daniels-midland co.,ADM
+Nutanix inc,NTNX
+Universal display corp,OLED
+Manhattan associates  inc.,MANH
+Wix.com ltd,WIX
+Suncoke energy inc,SXC
+Alexanders  inc.,ALX
+Pennymac financial services inc,PFSI
+Wsfs financial corp.,WSFS
+Landstar system inc,LSTR
+Western union co (the),WU
+Bausch health companies,BHC
+Blue owl cap class a,OWL
+Box inc,BOX
+Douglas elliman inc,DOUG
+Bce inc. (bell telephone of canada),BCE
+Sterling construction company  inc.,STRL
+Rocket companies  inc.,RKT
+Organon & co,OGN
+Life storage inc,LSI
+Sociedad quimica y minera de chile s.a. class a adr,SQM
+Ballard power systems  inc.,BLDP
+Magnite inc. (rubicon project inc.),MGNI
+Gerdau sa adr,GGB
+Collegium pharmaceutical inc,COLL
+Live nation entertainment inc,LYV
+Roper technologies inc,ROP
+Plains gp holdings lp,PAGP
+Ugi corp. (united gas improvement),UGI
+Verisk analytics inc,VRSK
+Atkore inc,ATKR
+Model n  inc.,MODN
+Abcellera biologics inc.,ABCL
+Ss&c technologies holdings inc,SSNC
+Gaming and leisure properties inc,GLPI
+Hudbay minerals inc,HBM
+Jones lang lasalle inc,JLL
+American campus communities inc,ACC
+Orion engineered carbons s.a,OEC
+Bigcommerce holdings  inc.,BIGC
+Apache corp,APA
+Aclaris therapeutics inc,ACRS
+Petmed express inc,PETS
+Avista corp. (washington water power co.),AVA
+Unum group  inc.,UNM
+Tucows inc,TCX
+One liberty properties  inc.,OLP
+Equifax inc.,EFX
+Endeavor group holdings  inc.,EDR
+Leggett & platt inc.,LEG
+Vanguard short-term inflation-protected securities index fund,VTIP
+Amerco inc,UHAL
+Targa resources inc,TRGP
+Vishay precision group inc,VPG
+Lsb industries inc,LXU
+Mongodb inc,MDB
+Fox corp class a,FOXA
+Teck resources ltd,TECK
+Snap-on inc.,SNA
+Universal corp. (universal leaf tobacco),UVV
+Mattel inc.,MAT
+First industrial realty trust  inc.,FR
+E.l.f. beauty inc,ELF
+Copa holdings s.a.,CPA
+Cornerstone building brands inc,CNR
+Northfield bancorp inc,NFBK
+Teva pharmaceutical industries ltd  adr,TEVA
+Gartner  inc.,IT
+Lattice semconductor corp.,LSCC
+Companhia vale de rio doce s.a. adr,VALE
+Tegna inc. (gannett co.),TGNA
+Southside bancshares  inc.,SBSI
+Wendys co. (the),WEN
+Kornit digital ltd,KRNT
+Primo water corp,PRMW
+Cvr energy inc,CVI
+American national insurance co. (galveston  tx),ANAT
+Methanex corp,MEOH
+Mercantile bank corp.,MBWM
+Cubesmart,CUBE
+Huntsman corp,HUN
+Huntington ingalls industries inc,HII
+Grupo aero sureste sa ads,ASR
+Fti consulting  inc.,FCN
+Exp world holdings inc,EXPI
+Lennox international  inc.,LII
+Canadian imperial bank of commerce (nyse),CM
+Ansys  inc.,ANSS
+Agco corp,AGCO
+Semtech corp,SMTC
+Jetblue airways corp,JBLU
+Cinemark holdings inc,CNK
+Sumitomo mitsui financial group inc. adr,SMFG
+Dht holdings inc,DHT
+Univest financial corp,UVSP
+Skyworks solutions  inc.,SWKS
+Exelon corp,EXC
+Middlesex water co,MSEX
+Kbr inc,KBR
+United states lime & minerals  inc.,USLM
+Ingles markets  inc class a,IMKTA
+Korn ferry,KFY
+Extreme networks inc.,EXTR
+Reliance steel & aluminum co.,RS
+Tencent music entertainment group,TME
+Knot offshore partners l.p.,KNOP
+Sps commerce inc,SPSC
+Stifel financial corp,SF
+Towne bank/portsmouth va,TOWN
+American eagle outfitters inc,AEO
+Emcor group  inc.,EME
+Magnolia oil & gas corp class a,MGY
+Firstenergy corp.,FE
+Robert half international  inc.,RHI
+Ishares 0-5 year tips bond etf,STIP
+Xperi corp,XPER
+Graco inc.,GGG
+Lincoln national corp.,LNC
+Jfrog ltd.,FROG
+Bread financial holdings inc,BFH
+Jefferies financial group inc. (talcott national - leucadia national),JEF
+Antero midstream corp,AM
+Spdr bloomberg high yield bond etf,JNK
+Coterra energy inc,CTRA
+Five below inc,FIVE
+Pinnacle financial partners inc,PNFP
+Cutera inc,CUTR
+Vimeo inc,VMEO
+Neophotonics corp,NPTN
+Fastly inc,FSLY
+Essex property trust  inc.,ESS
+Partner communications co ltd adr,PTNR
+Stratasys ltd,SSYS
+Qcr holdings inc,QCRH
+Mohawk industries inc.,MHK
+Pbf energy inc,PBF
+Netease inc adr,NTES
+American public education inc,APEI
+Aurinia pharmaceuticals inc,AUPH
+Great lakes dredge & dock corp.,GLDD
+Infosys ltd adr,INFY
+Ferroglobe plc,GSM
+Catchmark timber trust inc,CTT
+Johnson outdoors  inc.  class a,JOUT
+Diamond hill investment group,DHIL
+Hewlett packard enterprise co,HPE
+Skyline champion corp,SKY
+Sandstorm gold ltd,SAND
+Western alliance bancorporation,WAL
+Pubmatic  inc.,PUBM
+Liberty braves group series c,BATRK
+Utah medical products  inc.,UTMD
+Columbia financial inc,CLBK
+Hometrust bancshares inc,HTBI
+Rayonier advanced materials inc,RYAM
+Fortive corp,FTV
+Oasis petroleum inc,OAS
+Janus henderson group plc,JHG
+Banco santander chile adr,BSAC
+Schein (henry) inc.,HSIC
+Haynes international inc,HAYN
+Blucora inc,BCOR
+Delta air lines inc.,DAL
+Atn international inc,ATNI
+W.p. carey inc,WPC
+Argan inc.,AGX
+Ziff davis inc,ZD
+Proassurance corp.,PRA
+Safe bulkers inc.,SB
+Adtran inc,ADTN
+Cardiovascular systems inc,CSII
+3d systems corp.,DDD
+Shake shack inc,SHAK
+Ci financial corp,CIXX
+Outfront media inc,OUT
+Westinghouse air brake technologies corp,WAB
+Invesco senior loan etf,BKLN
+Barrett business services inc,BBSI
+Barclays bank plc sponsored adr,BCS
+Ambev s.a. adr,ABEV
+Choice hotels international  inc.,CHH
+Kronos worldwide inc.,KRO
+Alpha and omega semiconductor ltd,AOSL
+Thermo fisher scientific  inc.,TMO
+Knowles corp.,KN
+Dolby laboratories,DLB
+Autozone inc.,AZO
+Dentsply international inc. (1983),XRAY
+Wisdomtree dynamic currency hedged international quality dividend grow,RESD
+Affirm holdings inc,AFRM
+Hollysys automation technologies ltd,HOLI
+Entravision communications corp. class a,EVC
+Piper jaffray companies,PIPR
+Diodes inc.,DIOD
+Loews corp,L
+Telefonica brasil s.a.,VIV
+Owl rock capital corp,ORCC
+Silvercorp metals inc,SVM
+Match group inc.,MTCH
+Interactive brokers group inc,IBKR
+Equinix inc,EQIX
+Taseko mines ltd,TGB
+Pg&e corp. (pacific gas & electric),PCG
+Ford motor co.,F
+Vontier corp.,VNT
+Fox factory holding corp,FOXF
+Ollies bargain outlet holdings inc,OLLI
+Under armour inc cl c,UA
+Great southern bancorp  inc.,GSBC
+Guidewire software  inc.,GWRE
+Tri pointe homes inc (de),TPH
+Ssga spdr gold shares,GLD
+Vaneck semiconductor etf,SMH
+Lithium americas corp,LAC
+Safety insurance group inc,SAFT
+Materion corp,MTRN
+Century aluminum co.,CENX
+Doximity inc,DOCS
+Equitrans midstream corp,ETRN
+Ishares msci brazil etf,EWZ
+Arrowhead pharmaceuticals inc,ARWR
+Signet jewelers ltd,SIG
+Algonquin power & utilities,AQN
+Pgt innovations inc,PGTI
+Commercial vehicle group inc,CVGI
+Nielsen n.v.,NLSN
+Ardagh metal packaging s.a.,AMBP
+Sapiens international corp,SPNS
+Upwork inc,UPWK
+Eastgroup properties  inc.,EGP
+Shenandoah telecommunications co,SHEN
+Littelfuse inc.,LFUS
+Sun communities  inc.,SUI
+Constellation brands  inc.,STZ
+Artesian resources corp  class a,ARTNA
+Sinclair broadcast group inc  class a,SBGI
+Orthofix medical inc.,OFIX
+Warner music group corp. class a,WMG
+Sierra wireless inc,SWIR
+Editas medicine inc,EDIT
+Childrens place inc,PLCE
+Futurefuel corp,FF
+Natl research corporation,NRC
+Rush enterprises  inc. class b,RUSHB
+Village super market inc.  class a,VLGEA
+Perrigo co plc,PRGO
+Umpqua holdings corp.,UMPQ
+Stitch fix inc,SFIX
+Toll brothers  inc.,TOL
+Columbia banking system  inc.,COLB
+Companhia de saneamento basico do estado de sao paulo-sabesp ads adr,SBS
+First defiance financial corp,PFC
+West fraser timber co ltd,WFG
+Anika therapeutics inc.,ANIK
+Global ship lease inc,GSL
+Viatris inc,VTRS
+Redfin corp,RDFN
+Camden national corp,CAC
+Annaly mortgage management  inc.,NLY
+Independent bank corp (mi),IBCP
+Dhi group inc (dice holdings  inc.),DHX
+The rmr group inc,RMR
+Trinet group inc,TNET
