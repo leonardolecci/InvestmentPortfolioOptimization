@@ -33,3 +33,5 @@ for(i in 1:length_vector){
 
 # Step 2: pulling in only adjusted prices
 joined_prices_only <- joined_prices[,adj_position]
+
+# trying to commit on github
