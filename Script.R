@@ -19,7 +19,7 @@ dim_portfolio <- dim_portfolio[1]
 stock_vector <- c(NULL)
 
 # Create vector with the biggest 855 stock held by the fund
-for(p in 1:dim_portfolio){
+for(p in 1:3){
   stock_vector <- append(stock_vector, portfolio[p,2])
 }
 length_vector <- length(stock_vector)
@@ -30,7 +30,7 @@ adj_position <- c(NULL)
 
 
 # loop to get alll the values of stock through quantmod
-for(i in 1:length_vector){
+for(i in 1:3){
   stock_values <- NULL
   stock_values <- getSymbols(stock_vector[i], auto.assign = FALSE)
   joined_prices <- cbind(joined_prices, stock_values)
@@ -44,11 +44,38 @@ joined_prices_only <- joined_prices[,adj_position]
 
 #Step 3: calculate returns
 
-stock_returns <- NULL
-joined_returns <- NULL
-for(i in 1:length_vector){
-  stock_returns <- monthlyReturn(getSymbols(stock_vector[i], auto.assign = FALSE))
-  joined_returns <- cbind(joined_returns, stock_returns)
-  print(i)
+# Version 1 (more complex and used in real life work)
+
+# User Defined Function to add time window
+window_returns <- function(x, t){
+  compounded <- rep(NA, each = (t-1))
+  for(i in t:length(x)){
+    compounded[i] <- log(x[i]/x[i-t+1])
+  }
+  return(compounded)
+}#closing the window_returns UDF
+
+
+#calling the UDF
+# t=25 for the trading days per month
+
+joined_monthly_returns <- NULL
+trading_days_month <- 25
+
+for(i in 1:length(stock_vector)){
+  joined_monthly_returns <- cbind(joined_monthly_returns, window_returns(x=joined_returns_loop[,i], t=trading_days_month))
 }
+
+joined_monthly_returns <- as.data.frame(joined_monthly_returns)
+
+
+
+# Version 2 to calculate returns but not the best method because relying on assumptions made by the author of the library
+#stock_returns <- NULL
+#joined_returns <- NULL
+#for(i in 1:length_vector){
+#  stock_returns <- monthlyReturn(getSymbols(stock_vector[i], auto.assign = FALSE))
+#  joined_returns <- cbind(joined_returns, stock_returns)
+#  print(i)
+#}
 
