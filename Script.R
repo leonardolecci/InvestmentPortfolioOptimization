@@ -41,3 +41,14 @@ for(i in 1:length_vector){
 
 # Step 2: pulling in only adjusted prices
 joined_prices_only <- joined_prices[,adj_position]
+
+#Step 3: calculate returns
+
+stock_returns <- NULL
+joined_returns <- NULL
+for(i in 1:length_vector){
+  stock_returns <- monthlyReturn(getSymbols(stock_vector[i], auto.assign = FALSE))
+  joined_returns <- cbind(joined_returns, stock_returns)
+  print(i)
+}
+
