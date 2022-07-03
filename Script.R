@@ -46,6 +46,9 @@ joined_prices_only <- joined_prices[,adj_position]
 
 # Version 1 (more complex and used in real life work)
 
+
+joined_returns_loop <- as.data.frame(joined_prices_only)
+
 # User Defined Function to add time window
 window_returns <- function(x, t){
   compounded <- rep(NA, each = (t-1))
@@ -55,7 +58,6 @@ window_returns <- function(x, t){
   return(compounded)
 }#closing the window_returns UDF
 
-
 #calling the UDF
 # t=25 for the trading days per month
 
@@ -63,19 +65,8 @@ joined_monthly_returns <- NULL
 trading_days_month <- 25
 
 for(i in 1:length(stock_vector)){
-  joined_monthly_returns <- cbind(joined_monthly_returns, window_returns(x=joined_returns_loop[,i], t=trading_days_month))
+  joined_monthly_returns <- cbind(joined_monthly_returns, window_returns(x=joined_returns_loop[,i], t=25))
 }
 
 joined_monthly_returns <- as.data.frame(joined_monthly_returns)
-
-
-
-# Version 2 to calculate returns but not the best method because relying on assumptions made by the author of the library
-#stock_returns <- NULL
-#joined_returns <- NULL
-#for(i in 1:length_vector){
-#  stock_returns <- monthlyReturn(getSymbols(stock_vector[i], auto.assign = FALSE))
-#  joined_returns <- cbind(joined_returns, stock_returns)
-#  print(i)
-#}
 
