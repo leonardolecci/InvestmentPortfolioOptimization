@@ -13,7 +13,7 @@ library(quantmod)
 # Import portfolio of Renaissance Technology from csv
 # Deleted all symbols with class type (.A .B .WS), they didn't hold a big share of total portfolio
 # Deleted all the stock with a % of portfolio < 0.02, the stocks represented here amount to ~60% of the portfolio
-portfolio <- read.csv("~/Library/Mobile Documents/com~apple~CloudDocs/Hult/Wealth Mngmt/InvestmentPortfolioOptimization/RENAISSANCE-TECHNOLOGIES-LLC-transactions-Q1 2022.csv")
+portfolio <- read.csv("~/Library/Mobile Documents/com~apple~CloudDocs/Hult/Wealth Mngmt/InvestmentPortfolioOptimization/renaissance_Name_Symbol_SharesHeld.csv")
 dim_portfolio <- dim(portfolio)
 dim_portfolio <- dim_portfolio[1]
 stock_vector <- c(NULL)
@@ -64,9 +64,43 @@ window_returns <- function(x, t){
 joined_monthly_returns <- NULL
 trading_days_month <- 25
 
+# for cycle for combining all log returns in a single df
 for(i in 1:length(stock_vector)){
   joined_monthly_returns <- cbind(joined_monthly_returns, window_returns(x=joined_returns_loop[,i], t=25))
 }
 
 joined_monthly_returns <- as.data.frame(joined_monthly_returns)
 
+# Calculating portfolio return
+# This is not precise for old values, protfolio allocation changes over time, this assumes a fiexd allocation for the past
+
+# Getting share held in each stock
+stock_held <- c(NULL)
+
+# Create vector with the biggest 855 stock held by the fund
+for(p in 1:3){
+  stock_held <- append(stock_held, portfolio[p,3])
+}
+
+tot_stock_held <- sum(stock_held)
+
+# calculate portfolio allocation
+alloc_vect <- c(NULL)
+for(i in 1:3){
+  alloc_vect <- append(alloc_vect, stock_held[i]/tot_stock_held)
+}
+
+# creating a vector with proportional return for each stock
+
+prop_returns <- c(NULL)
+
+for(i in 1:3){
+  prop_returns <- append(prop_returns, joined_monthly_returns[i]*alloc_vect[i])
+}
+
+prop_returns <- as.data.frame(prop_returns)
+
+# Add column for portfolio's monthly return and add all monthly returns
+for(i in 1:nrow(joined_monthly_returns)){
+  joined_monthly_returns$portfolio[i] <- rowSums(prop_returns[i,],na.rm=TRUE)
+}
