@@ -1,0 +1,857 @@
+Stock,Symbol,Shares Held
+Novo-nordisk a/s ads,NVO,18383971.0
+Tesla inc,TSLA,1555375.0
+Kroger co.,KR,16427510.0
+Gilead sciences inc.,GILD,15492116.0
+Verisign inc.,VRSN,4016590.0
+Apple inc,AAPL,4504192.0
+Advanced micro devices inc,AMD,7107290.0
+Atlassian corp plc,TEAM,2643920.0
+Zoom video communications inc,ZM,6449306.0
+Amazon.com inc.,AMZN,4141100.0
+Meta platforms inc,META,3001000.0
+Hershey company (the),HSY,3060267.0
+Moderna inc,MRNA,3818180.0
+Franco-nevada corp,FNV,4073503.0
+Alphabet inc. class a,GOOGL,227648.0
+Mcdonalds corp.,MCD,2531400.0
+Molina healthcare inc,MOH,1813615.0
+Airbnb  inc.,ABNB,3403767.0
+Home depot  inc. (the),HD,1882619.0
+Monster beverage corp.,MNST,7028060.0
+Verizon communications (bell atlantic corp.),VZ,10604493.0
+Exxonmobil corp. (standard oil of new jersey),XOM,6444764.0
+United therapeutics corp,UTHR,2765213.0
+Abiomed inc,ABMD,1414200.0
+Vodafone group plc sponsored adr,VOD,27537932.0
+Vertex pharmaceuticals  inc.,VRTX,1707368.0
+Glaxosmithkline plc adr,GSK,10011921.0
+Colgate-palmolive co.,CL,5688786.0
+Dominos pizza inc,DPZ,1040825.0
+Merck & co,MRK,5099334.0
+Wells fargo & co.  (northwest bancorporation),WFC,8390611.0
+Exelixis inc,EXEL,16862278.0
+Alphabet inc. class c,GOOG,134985.0
+National grid plc adr,NGG,4874077.0
+Incyte corporation,INCY,4697633.0
+Abbott laboratories,ABT,3140866.0
+Target corp.,TGT,1672320.0
+Roku inc,ROKU,2808100.0
+Pepsico inc. (loft  inc.),PEP,1958643.0
+Lowes companies  inc.,LOW,1586400.0
+Fortinet inc,FTNT,4688945.0
+Alcoa corp,AA,3539596.0
+Coca cola co.,KO,5052156.0
+Pfizer  inc.,PFE,6011941.0
+Icon plc ads,ICLR,1276958.0
+Astrazeneca plc,AZN,4561828.0
+General mills co.,GIS,4431688.0
+Novartis ag ads,NVS,3381170.0
+Zim integrated shipping services ltd,ZIM,4062538.0
+Charter communications inc,CHTR,541400.0
+Pinterest inc,PINS,11515600.0
+Activision blizzard inc,ATVI,3515598.0
+Bank of america corp. (north carolina national bank),BAC,6800366.0
+Union pacific corp.,UNP,1018299.0
+Qualcomm inc.,QCOM,1789760.0
+F5 networks inc,FFIV,1256562.0
+Cboe global markets inc,CBOE,2274724.0
+Petroleo brasileiro sa (petrobras) adr,PBR,16782600.0
+Philip morris international inc,PM,2632467.0
+Herbalife nutrition ltd,HLF,8118864.0
+Carrier global corp.,CARR,5306931.0
+Danaher corp.,DHR,818436.0
+Csx corp,CSX,6378400.0
+Jazz pharmaceuticals plc,JAZZ,1517309.0
+Procter & gamble co. (oh) (1905),PG,1505318.0
+Barrick gold corp,GOLD,9355036.0
+Comcast corp.  class a,CMCSA,4754976.0
+Cerner corp.,CERN,2367304.0
+Eqt corporation (equitable gas co.),EQT,6424264.0
+Biogen inc,BIIB,1044207.0
+Horizon therapeutics plc,HZNP,2025766.0
+Roblox corp. class a,RBLX,4437282.0
+3m co. (minnesota mining & manufacturing),MMM,1356600.0
+Coinbase global inc,COIN,1052000.0
+Altria group  inc. (philip morris),MO,3771516.0
+Regeneron pharmaceuticals inc.,REGN,279862.0
+Agnico-eagle mines  ltd,AEM,3177087.0
+Bristol-myers squibb co,BMY,2633332.0
+Twilio inc,TWLO,1163695.0
+Dropbox inc,DBX,8209733.0
+Mondelez international inc. (kraft foods),MDLZ,3035298.0
+Starbucks corp.,SBUX,2091567.0
+Sprouts farmers market inc,SFM,5898332.0
+Clorox co.,CLX,1355130.0
+Blackrock inc. class a,BLK,245400.0
+First republic bank (ca),FRC,1151300.0
+Duke energy corp.,DUK,1662282.0
+Fortis inc,FTS,3674861.0
+Linde plc (praxair inc.),LIN,558500.0
+National beverage corp,FIZZ,4093544.0
+Phillips 66,PSX,2053650.0
+Snowflake  inc.,SNOW,770300.0
+Corcept therapeutics inc,CORT,7770516.0
+Zoetis  inc.,ZTS,922274.0
+Virtu financial inc,VIRT,4632407.0
+Palantir technologies inc.,PLTR,12514847.0
+Air products & chemicals inc,APD,680700.0
+Rogers communications inc. class b (nyse),RCI,2970869.0
+Zscaler inc,ZS,697800.0
+Keurig dr pepper inc,KDP,4430761.0
+Agilent technologies inc,A,1242600.0
+Lockheed martin corp.,LMT,369500.0
+Cloudflare inc,NET,1339500.0
+Ecolab inc.,ECL,904997.0
+United parcel service  inc. class b,UPS,725500.0
+Jpmorgan chase & co. (chemical bank),JPM,1140386.0
+Visa inc,V,700100.0
+Chunghwa telecom co. ltd adr,CHT,3491869.0
+Quest diagnostics  inc.,DGX,1131900.0
+Flowers foods,FLO,5999785.0
+Abbvie inc,ABBV,923303.0
+Newmont mining corp. (holding co.),NEM,1875675.0
+Cable one inc,CABO,101700.0
+Campbell soup co.,CPB,3306268.0
+B2gold corp,BTG,32070755.0
+Corvel corp.,CRVL,867510.0
+Public storage  inc.,PSA,374314.0
+Kinross gold corp. adr,KGC,24604758.0
+Cogent communications group inc,CCOI,2164356.0
+Allison transmission holdings inc,ALSN,3651319.0
+New york times co. class a,NYT,3124642.0
+Hormel foods corp.,HRL,2764663.0
+Pacira biosciences inc,PCRX,1860997.0
+P.t. telekomunikasi indonesia adr,TLK,4433614.0
+Valero energy corp.,VLO,1374688.0
+Shell plc,SHEL,2468486.0
+Kkr & co. inc,KKR,2316350.0
+Boeing company,BA,707200.0
+Chevron corp. (standard oil of california),CVX,825820.0
+Petroleo brasileiro sa petrobras class a adr,PBR.A,9539000.0
+Wheaton precious metals corp,WPM,2787718.0
+Firstservice corp,FSV,909980.0
+Wec energy group (wisconsin electric power),WEC,1320077.0
+Medifast inc,MED,771310.0
+Smucker (j.m.) co.,SJM,953976.0
+Alkermes plc.,ALKS,4868013.0
+Nu skin enterprises inc. class a,NUS,2670996.0
+Cheniere energy inc,LNG,917448.0
+Ubiquiti inc,UI,426682.0
+Commvault systems inc,CVLT,1823687.0
+Cbre group inc common stock class a,CBRE,1320100.0
+Oreilly automotive inc.,ORLY,176294.0
+Neurocrine biosciences inc.,NBIX,1280123.0
+Southern co.,SO,1651211.0
+Itau unibnco adr,ITUB,20872374.0
+Cosan sa,CSAN,5934882.0
+Inmode ltd,INMD,3181662.0
+Walmart inc,WMT,788552.0
+Msci inc,MSCI,233021.0
+Garmin ltd,GRMN,987042.0
+Tjx companies inc.,TJX,1921900.0
+Kellogg co.,K,1794111.0
+Li auto inc. ads,LI,4473700.0
+Coupa software inc,COUP,1128200.0
+Nio inc,NIO,5401600.0
+Gold fields ltd adr,GFI,7350784.0
+Morningstar inc,MORN,415570.0
+Usana health sciences inc.,USNA,1424263.0
+Schlumberger ltd.,SLB,2736004.0
+Docusign inc,DOCU,1042900.0
+Tyson foods  inc.,TSN,1242457.0
+Grupo aeroportuario del pacifico  s.a.b de c.v. adr,PAC,690400.0
+Baxter international inc.,BAX,1434000.0
+China petroleum & chemical corp. sponsored adr,SNP,2213544.0
+Nova measuring instruments ltd,NVMI,999786.0
+Workiva inc,WK,917700.0
+General electric co,GE,1179957.0
+Norfolk southern corp.,NSC,377500.0
+Colliers international group inc,CIGI,821800.0
+Dr. reddys laboratories ltd adr,RDY,1912238.0
+Bio-rad laboratories inc class a,BIO,187800.0
+Philippine long distance telephone co adr,PHI,2999461.0
+Snap inc class a,SNAP,2913800.0
+Murphy usa inc,MUSA,523400.0
+Illumina inc,ILMN,298318.0
+Twitter inc,TWTR,2683196.0
+General motors co,GM,2368500.0
+Costco co.,COST,179500.0
+Nokia corp. adr class a adr,NOK,18786680.0
+Expeditors international of washington inc,EXPD,990616.0
+Yamana gold inc.,AUY,18245781.0
+Xylem inc,XYL,1183400.0
+Innoviva inc,INVA,5213633.0
+Sanderson farms  inc.,SAFM,536618.0
+Vector group ltd. (liggett group inc. - brooke group ltd.),VGR,8355263.0
+Shaw communications inc class b,SJR,3230639.0
+Laboratory corp of america holdings,LH,380005.0
+Chubb limited,CB,468399.0
+Hologic inc.,HOLX,1300461.0
+Simon property group  inc.,SPG,756005.0
+Nomad foods ltd,NOMD,4380779.0
+Te connectivity ltd,TEL,754745.0
+Trane technologies plc,TT,642268.0
+Ryanair holdings adr,RYAAY,1124851.0
+Camden property trust,CPT,587800.0
+Hsbc holdings plc adr,HSBC,2805243.0
+Premier inc,PINC,2677389.0
+Marriott international inc/md,MAR,530416.0
+Nasdaq inc,NDAQ,519600.0
+Macys inc,M,3796764.0
+Papa johns international inc.,PZZA,878168.0
+Amgen  inc.,AMGN,379545.0
+Illinois tool works inc,ITW,436800.0
+Telus corp. non-voting shares,TU,3490166.0
+Corning inc.,GLW,2441600.0
+Mp materials corp,MP,1568700.0
+Blackstone group inc,BX,708200.0
+Valvoline inc,VVV,2838824.0
+Public service enterprise group inc,PEG,1247000.0
+Coca-cola femsa  s.a.b. de c.v. adr,KOF,1584905.0
+Crowdstrike holdings inc,CRWD,382200.0
+Walgreens boots alliance inc.,WBA,1910000.0
+Shutterstock inc,SSTK,909501.0
+Bath & body works inc (l brands),BBWI,1765333.0
+Asml holding nv (adr),ASML,125525.0
+V.f. corp. (vanity fair mills inc.),VFC,1473900.0
+Pinduoduo inc,PDD,2087700.0
+At&t inc. (southwestern bell - sbc corp.),T,4689457.06
+Mid-america apartment communities  inc.,MAA,398749.0
+Ringcentral inc,RNG,712400.0
+Old dominion freight line inc,ODFL,277741.0
+Liberty global plc class a,LBTYA,3250852.0
+Eog resources inc,EOG,681800.0
+Rio tinto plc (nyse) adr,RIO,1008100.0
+Bp plc adr (british petroleum),BP,2730769.0
+Tfs financial corp,TFSL,4815802.0
+Crown castle international corp,CCI,430898.0
+Copart inc.,CPRT,631744.0
+Extra space storage  inc.,EXR,385000.0
+Booking holdings inc. (priceline),BKNG,33699.0
+Warrior met coal inc,HCC,2125379.0
+Zebra technologies corp,ZBRA,190131.0
+Cvs health corp. (melville shoe),CVS,774819.0
+Aon plc,AON,240700.0
+Tenaris sa ads adr,TS,2602828.0
+Celanese corp,CE,547800.0
+Teledyne technologies  inc.,TDY,165227.0
+First solar inc,FSLR,931000.0
+Royal gold inc,RGLD,550242.0
+Casella waste systems inc,CWST,883801.0
+Alamos gold inc,AGI,9177531.0
+Independence realty trust inc,IRT,2896641.0
+Star bulk carriers corp,SBLK,2576600.0
+Penn national gaming inc.,PENN,1789038.0
+Progressive corp.,PGR,663600.0
+The trade desk inc class a,TTD,1082400.0
+Antero resources corp,AR,2450300.0
+Mercury general corp.,MCY,1359400.0
+Bunge ltd. adr,BG,673600.0
+Monolithic power systems inc,MPWR,153526.0
+Dow inc,DOW,1166500.0
+Conagra brands inc,CAG,2208499.0
+Doordash  inc.,DASH,630200.0
+U.s. silica holdings  inc.,SLCA,3957008.0
+Marsh & mclennan companies  inc.,MMC,432101.0
+Yum! brands  inc. (tricon global restaurants),YUM,617400.0
+Electronic arts  inc.,EA,578064.0
+Sturm  ruger & co.  inc.,RGR,1040776.0
+Liberty global plc class c,LBTYK,2795520.0
+Western digital corp,WDC,1451033.0
+Occidental petroleum corp.,OXY,1267384.0
+Modivcare inc,MODV,612299.0
+Workday inc,WDAY,293771.0
+Netapp inc.,NTAP,847022.0
+Kinder morgan inc. (de),KMI,3700131.0
+Okta inc,OKTA,458700.0
+Halliburton co.,HAL,1818661.0
+Wns (holdings) ltd adr,WNS,804000.0
+S&p global inc. (mcgraw-hill inc.),SPGI,167022.0
+Church & dwight co.  inc.,CHD,686453.0
+Fomento economico mexicano s.a.b. de cv adr,FMX,820400.0
+Dell technologies inc,DELL,1350877.0
+Brookfield renewable corporation class a,BEPC,1541541.0
+Owens & minor  inc (holding co.),OMI,1529950.0
+Radware ltd.,RDWR,2068839.0
+Cme group inc,CME,276589.0
+Cal-maine foods inc,CALM,1182999.0
+Chemed corporation,CHE,128500.0
+Lennar corp. class a,LEN,800233.0
+Uipath inc,PATH,2985730.0
+Johnson controls international plc (tyco laboratories),JCI,967444.0
+Otis worldwide corp,OTIS,823694.0
+American electric power company inc,AEP,634000.0
+Asana  inc.,ASAN,1577500.0
+Csg systems international inc.,CSGS,985494.0
+Medpace holdings inc,MEDP,380088.0
+Calix inc,CALX,1447718.0
+Paycom software inc,PAYC,177317.0
+Synchrony financial,SYF,1757300.0
+Digital realty trust  inc.,DLR,427683.0
+Iamgold corp,IAG,17418600.0
+Ambarella inc,AMBA,571100.0
+Chesapeake energy corp,CHK,688120.0
+Lyondellbasell industries nv,LYB,580900.0
+Grupo televisa s.a. gdr,TV,5051857.0
+Brady corp. class a,BRC,1276240.0
+Hello group inc adr,MOMO,10199498.0
+Progress software corp.,PRGS,1249781.0
+Brookdale senior living inc.,BKD,8286002.0
+Lancaster colony corp.,LANC,391363.0
+Ametek inc.,AME,437150.0
+Cms energy corp. (consumers power co.),CMS,831549.0
+Service corp. international  inc.,SCI,882100.0
+America movil s.a.b. de c.v. ads,AMX,2739475.0
+Techtarget inc,TTGT,707600.0
+Under armour inc,UAA,3378405.0
+Royal bank of canada (nyse),RY,520293.0
+Dollar tree inc.,DLTR,358103.0
+Six flags entertainment corp.,SIX,1317100.0
+Relx plc adr,RELX,1841500.0
+Cadence design systems  inc.,CDNS,347100.0
+Willis towers watson public limited co,WTW,240167.0
+New york community bancorp,NYCB,5284225.0
+Now inc,DNOW,5126979.0
+Amn healthcare services inc,AMN,540800.0
+Ceridian hcm holding inc,CDAY,822000.0
+Peabody energy corp,BTU,2285243.0
+Kearny financial corp,KRNY,4335785.0
+Equinor asa,EQNR,1488123.0
+Conocophillips (phillips petroleum),COP,555408.0
+Mobile telesystems ojsc ads adr,MBT,20168324.0
+Aflac inc.,AFL,859400.0
+Adobe systems  inc.,ADBE,121433.0
+Capitol federal financial inc,CFFN,5055137.0
+T. rowe price group,TROW,363700.0
+C3ai  inc.,AI,2412200.0
+Keysight technologies inc,KEYS,346600.0
+Pan american silver corp,PAAS,2002804.0
+Ssr mining,SSRM,2509143.0
+Arcelormittal s.a.  sponsored adr,MT,1702671.0
+Titan international  inc.,TWI,3699440.0
+Hartford financial services group,HIG,757100.0
+Baidu inc adr,BIDU,409900.0
+Nordstrom inc.,JWN,1988500.0
+Evertec  inc.,EVTC,1310526.0
+Costar group inc,CSGP,803780.0
+Eldorado gold corp,EGO,4764869.0
+Perdoceo education corp. (career education),PRDO,4649669.0
+Olin corp. (mathieson chemical),OLN,1015700.0
+Nvr inc,NVR,11870.0
+Robinhood markets inc,HOOD,3922000.0
+Zoominfo technologies inc.,ZI,886200.0
+Invs real estate trust,CSR,538332.0
+Trex company,TREX,804800.0
+Geopark ltd,GPRK,3490431.0
+Manulife financial corp,MFC,2439424.0
+Gamestop corp.  class a,GME,306912.0
+Open text corp.,OTEX,1201716.0
+Chipmos technologies inc,IMOS,1429600.0
+Ecopetrol s.a. adr,EC,2727430.0
+Heidrick & struggles international inc,HSII,1270202.0
+Albertsons companies  inc.,ACI,1508105.0
+Packaging corp. of america,PKG,319800.0
+Coty inc.,COTY,5552330.0
+W d-40 co,WDFC,266938.0
+Equity lifestyle properties inc,ELS,638864.0
+Insulet corp,PODD,182900.0
+Echostar corp.,SATS,1996804.0
+Gladstone commercial corp,GOOD,2207120.0
+National storage affiliates trust,NSA,771586.0
+Pentair plc,PNR,892164.0
+Skillz inc,SKLZ,16074900.0
+Becton  dickinson and co.,BDX,185803.8
+Builders firstsource inc,BLDR,745641.0
+Johnson & johnson co.,JNJ,271200.0
+Arthur j. gallagher & co inc,AJG,275000.0
+Meridian bioscience inc,VIVO,1834764.0
+Waste connections inc,WCN,340833.0
+Newell brands inc,NWL,2212527.0
+National bank holdings corp,NBHC,1167500.0
+Amphenol corp. (1987),APH,622900.0
+Zillow group inc class c,Z,951114.0
+Teradyne inc,TER,393900.0
+Dte energy co. (detroit edison),DTE,351470.0
+Sm energy co,SM,1183200.0
+Crescent point energy corp,CPG,6350887.0
+Restaurant brands international inc,QSR,787687.0
+Ebay inc.,EBAY,797290.0
+Amc entertainment holdings inc,AMC,1843033.0
+Golden ocean group limited,GOGL,3658689.0
+Academy sports and outdoors  inc.,ASO,1147500.0
+Varonis systems inc,VRNS,951000.0
+Interdigital  inc.,IDCC,706467.0
+Centennial resource development inc,CDEV,5560500.0
+American airlines group inc,AAL,2454800.0
+Seagate technology plc,STX,494393.0
+Carriage services inc. class a,CSV,830500.0
+Crispr therapeutics ag,CRSP,702300.0
+Forrester research inc,FORR,776524.0
+Host hotels& resorts inc,HST,2238065.0
+Pam transportation services inc,PTSI,1245808.0
+Enanta pharmaceuticals inc,ENTA,607100.0
+New oriental education & tech group inc adr,EDU,37490100.0
+Clearway energy inc class a,CWEN.A,1293629.0
+Biontech se adr,BNTX,250419.0
+Apollo global management inc,APO,688872.0
+Cdw corp.,CDW,238598.0
+Logitech international sa adr,LOGI,576963.0
+Idt corp. class b,IDT,1248377.0
+Healthcare realty trust inc,HR,1547600.0
+Ipg photonics corp,IPGP,385300.0
+Arch coal inc,ARCH,306600.0
+Microstrategy inc.,MSTR,86300.0
+Pnm resources  inc.,PNM,876656.0
+Repligen corp.,RGEN,220816.0
+Vistra energy corp,VST,1781440.0
+Apartment income reit corp.,AIRC,773500.0
+Kraft heinz co. (the),KHC,1048700.0
+Datadog inc,DDOG,272700.0
+Range resources corp.,RRC,1358483.0
+Berkshire hathaway inc class a,BRK.A,78.0
+Smith & wesson brands inc. (american outdoor brands),SWBI,2721377.0
+Check point software technologies ltd,CHKP,297700.0
+Grainger (w.w.) inc.,GWW,79700.0
+Enova international inc,ENVA,1077643.0
+Berkeley (w.r.) corp.,WRB,609348.0
+Sba communications corp.,SBAC,117749.0
+Clean harbors inc.,CLH,362733.0
+Enbridge  inc. (interprovincial pipe line system - ipl energy),ENB,876110.0
+Whirlpool corp. (de),WHR,233557.0
+Cliffs natural resources inc.,CLF,1252359.0
+Hanesbrands  inc.,HBI,2708900.0
+Supernus pharmaceuticals inc,SUPN,1243522.0
+Alpha metallurgical resources inc.,AMR,304115.0
+Synopsys inc.,SNPS,119834.0
+A10 networks inc,ATEN,2855060.0
+Alexandria real estate equities  inc.,ARE,196000.0
+Genmab a/s,GMAB,1088500.0
+Koninklijke philips electronics nv adr,PHG,1283821.0
+Ironwood pharmaceuticals inc,IRWD,3123053.0
+Federal realty investment trust,FRT,321000.0
+Ppl corp. (pennsylvania power & light),PPL,1371100.0
+Saia inc,SAIA,160598.0
+Frontdoor inc,FTDR,1311518.0
+Sealed air corp.,SEE,583221.0
+Equity commonwealth inc.,EQC,1378886.0
+National healthcare corp,NHC,551087.0
+Endo international plc,ENDP,16631661.0
+Fiverr international ltd,FVRR,503000.0
+Republic services inc.,RSG,288613.0
+California resources corp.,CRC,853136.0
+Spotify technology sa,SPOT,251400.0
+Biomarin pharmaceutical inc,BMRN,491171.0
+Getty realty corp.,GTY,1320581.0
+Wayfair inc class a,W,339100.0
+Costamare inc,CMRE,2187082.0
+Idex corp.,IEX,194225.0
+Liquidity services inc,LQDT,2174364.0
+Oge energy corp. (oklahoma gas & electric),OGE,911943.0
+Ritchie brothers auctioneers  inc.,RBA,620308.0
+Xcel energy inc. (northern states power co. (mn)),XEL,504450.0
+Allegion plc,ALLE,331500.0
+Watsco inc.,WSO,119200.0
+Vanda pharmaceuticals inc,VNDA,3208614.0
+Masco corp.,MAS,710700.0
+Embraer s.a. adr,ERJ,2869400.0
+World wrestling entertainment inc,WWE,578900.0
+Hasbro inc.,HAS,441100.0
+Transocean ltd,RIG,7872028.0
+Rex american resources corp.,REX,360705.0
+Pembina pipeline corp,PBA,949212.0
+Siteone landscape supply inc,SITE,220700.0
+Intercontinental exchange inc,ICE,269633.0
+Stoneco ltd,STNE,3034500.0
+Balchem corp.,BCPC,259700.0
+Clearway energy inc,CWEN,970622.0
+Store capital corp,STOR,1211700.0
+U.s. bancorp (first national bank of cincinnati),USB,666200.0
+Winmark corp,WINA,160231.0
+Fortune brands home & security inc,FBHS,472700.0
+Emerson electric co.,EMR,357600.0
+Nexpoint residential trust inc,NXRT,388213.0
+Itt inc. (international telephone and telegraph),ITT,466100.0
+Silicon laboratories inc,SLAB,232998.0
+Travere therapeutics inc,TVTX,1357322.0
+Stanley black & decker inc.,SWK,250162.0
+Univar solutions inc,UNVR,1087802.0
+Honda motor co ltd. adr (honda giken kogyo kabushiki kaisha) adr,HMC,1236698.0
+Mandiant inc,MNDT,1564400.0
+Bjs wholesale club holdings inc,BJ,516200.0
+Ennis inc.,EBF,1889253.0
+Spartannash co,SPTN,1055912.0
+Banco de chile adr,BCH,1625054.0
+Sun life financial inc,SLF,621600.0
+American software inc. class a,AMSWA,1661203.0
+Buckle inc,BKE,1047168.0
+Carlyle group inc,CG,706400.0
+Avalara inc,AVLR,346600.0
+Quidel corp.,QDEL,305187.0
+Brown-forman corp. class b,BF.B,510838.0
+Technipfmc plc ordinary share (fmc technologies),FTI,4406900.0
+Hecla mining co. (par $0.25),HL,5176465.0
+Cenovus energy inc,CVE,2031494.0
+Seaworld entertainment  inc.,SEAS,454600.0
+Trimble navigation ltd.,TRMB,468144.0
+Axis capital holdings ltd,AXS,557496.0
+Expedia group inc,EXPE,172193.0
+Imax corp,IMAX,1764200.0
+Consolidated edison co. of new york inc. (consolidated gas co. of new york),ED,352668.0
+Petrochina co ltd adr,PTR,660047.0
+Yeti holdings inc,YETI,552400.0
+Waterstone financial inc,WSBF,1710970.0
+Encompass health corp,EHC,464600.0
+Teladoc health inc,TDOC,457019.0
+Burlington stores inc,BURL,180000.0
+Cemex s.a. de c.v. series a (sponsored adr) adr,CX,6184793.0
+Mccormick & co. non-voting shares,MKC,325800.0
+Everest re group ltd.,RE,107800.0
+Canon inc. adr,CAJ,1333207.0
+Rexford industrial realty inc,REXR,434500.0
+Waters corporation,WAT,104300.0
+Hostess brands inc class a,TWNK,1474910.0
+Maravai lifesciences holdings  inc.,MRVI,913200.0
+The hackett group inc,HCKT,1394344.0
+Mettler-toledo international  inc.,MTD,23400.0
+Watts water technologies  inc.,WTS,230000.0
+Dover corp.,DOV,204600.0
+Pure storage inc,PSTG,897300.0
+Monday.com ltd,MNDY,199100.0
+Bank of montreal (nyse),BMO,266495.0
+Cnx resources corporation,CNX,1513616.0
+Nordson corporation,NDSN,137214.0
+Chase corp.,CCF,358000.0
+United microelectronics corp. adr,UMC,3410950.0
+Stellantis nv,STLA,1896958.0
+Surmodics  inc.,SRDX,685500.0
+Fluor corp.,FLR,1075900.0
+Myers industries inc.,MYE,1427097.0
+Sohucom ltd ads,SOHU,1832355.0
+Star peak energy transition corp,STEM,2761600.0
+Veeva systems inc,VEEV,143100.0
+Thomson reuters corp.,TRI,279260.0
+Avery dennison corp.,AVY,174300.0
+Ke holdings inc.,BEKE,2451294.0
+Suzano papel e celulose sa,SUZ,2606838.0
+Re/max holdings inc,RMAX,1089000.0
+Iradimed corp,IRMD,673312.0
+Smith (a.o.) corp.  class b,AOS,471900.0
+Perion network ltd,PERI,1339543.0
+Atrion corp.,ATRI,42200.0
+Old republic international corp.,ORI,1153585.0
+Stantec inc,STN,592700.0
+Terex corp. (northwest engineering co.),TEX,833600.0
+Haverty furniture companies  inc.,HVT,1083606.0
+Lilly (eli) & co.,LLY,103700.0
+Industrias bachoco s.a. de c.v. ads adr,IBA,634745.0
+Mr cooper group inc,COOP,647899.0
+News inc. class a,NWSA,1333500.0
+Central garden & pet co. class a,CENTA,723124.0
+Xpo logistics inc,XPO,404520.0
+Chicos fas inc,CHS,6116300.0
+Taro pharmaceutical industries ltd,TARO,678300.0
+Cra international inc.,CRAI,347875.0
+New gold inc. adr,NGD,16228345.0
+Sprout social  inc.,SPT,363400.0
+Ross stores inc. (de),ROST,321128.0
+Unitil corp,UTL,579751.0
+Macerich company (the),MAC,1842987.0
+Regency centers corp,REG,403969.0
+Arcbest corp,ARCB,357739.0
+Weis markets inc,WMK,400736.0
+City office reit inc,CIO,1618516.0
+Takeda pharmaceutical co ltd,TAK,1993200.0
+Tc energy corp,TRP,505710.0
+Ituran location and control ltd,ITRN,1234700.0
+Independent bank corp. (ma),INDB,347381.0
+On semiconductor corp,ON,451096.0
+Camtek ltd,CAMT,920840.0
+Seaboard corp. (hathaway bakeries),SEB,6667.0
+Patterson-uti energy inc,PTEN,1811121.0
+Xpeng inc.,XPEV,1014700.0
+Sjw group (san jose water co.),SJW,402000.0
+Sitime corp,SITM,112800.0
+Sap se adr,SAP,251500.0
+Ufp technologies inc.,UFPT,420673.0
+Iridium communications inc,IRDM,688699.0
+Fubotv inc,FUBO,4225800.0
+Transalta corp. adr,TAC,2670341.0
+Hess corp,HES,258263.0
+Bwx technologies inc,BWXT,513200.0
+Nice ltd adr,NICE,126144.0
+Evercore inc. class a,EVR,247800.0
+Cgi inc,GIB,345700.0
+Revolve group inc,RVLV,513600.0
+Cf industries holdings inc,CF,267550.0
+Quanex building products,NX,1310407.0
+Stewart information services corp.,STC,453597.0
+Granite real estate investment trusts,GRP.U,356100.0
+Mdu resources group,MDU,1030450.0
+Tenable holdings inc,TENB,473200.0
+Brown & brown inc.,BRO,377700.0
+Atlantica sustainable infrastr plc,AY,773255.0
+Armada hoffler properties inc,AHH,1856809.0
+Foot locker inc. (f. w. woolworth),FL,913900.0
+Hca healthcare inc,HCA,108000.0
+Knight transportation inc.,KNX,535327.0
+Kimberly-clark corp.,KMB,217900.0
+Archer-daniels-midland co.,ADM,297000.0
+Nutanix inc,NTNX,997800.0
+Universal display corp,OLED,160239.0
+Manhattan associates  inc.,MANH,192560.0
+Wix.com ltd,WIX,255500.0
+Suncoke energy inc,SXC,2992768.0
+Alexanders  inc.,ALX,103714.0
+Pennymac financial services inc,PFSI,498800.0
+Wsfs financial corp.,WSFS,568784.0
+Landstar system inc,LSTR,175140.0
+Western union co (the),WU,1407900.0
+Bausch health companies,BHC,1153789.0
+Blue owl cap class a,OWL,2078800.0
+Box inc,BOX,906200.0
+Douglas elliman inc,DOUG,3601923.0
+Bce inc. (bell telephone of canada),BCE,473398.0
+Sterling construction company  inc.,STRL,979272.0
+Rocket companies  inc.,RKT,2357100.0
+Organon & co,OGN,749185.0
+Life storage inc,LSI,185400.0
+Sociedad quimica y minera de chile s.a. class a adr,SQM,303900.0
+Ballard power systems  inc.,BLDP,2232513.0
+Magnite inc. (rubicon project inc.),MGNI,1964654.0
+Gerdau sa adr,GGB,4028700.0
+Collegium pharmaceutical inc,COLL,1270118.0
+Live nation entertainment inc,LYV,219585.0
+Roper technologies inc,ROP,54600.0
+Plains gp holdings lp,PAGP,2229722.0
+Ugi corp. (united gas improvement),UGI,710583.0
+Verisk analytics inc,VRSK,119800.0
+Atkore inc,ATKR,260000.0
+Berkshire hathaway inc class b,BRK.B,72500.0
+Model n  inc.,MODN,949398.0
+Abcellera biologics inc.,ABCL,2617603.0
+Ss&c technologies holdings inc,SSNC,338200.0
+Gaming and leisure properties inc,GLPI,539330.0
+Hudbay minerals inc,HBM,3223229.0
+Jones lang lasalle inc,JLL,105689.0
+American campus communities inc,ACC,451986.0
+Orion engineered carbons s.a,OEC,1580801.0
+Bigcommerce holdings  inc.,BIGC,1151000.0
+Apache corp,APA,608191.0
+Aclaris therapeutics inc,ACRS,1457578.0
+Petmed express inc,PETS,972784.0
+Avista corp. (washington water power co.),AVA,555322.0
+Unum group  inc.,UNM,793400.0
+Tucows inc,TCX,365851.0
+One liberty properties  inc.,OLP,811007.0
+Equifax inc.,EFX,105295.0
+Endeavor group holdings  inc.,EDR,843300.0
+Leggett & platt inc.,LEG,713700.0
+Vanguard short-term inflation-protected securities index fund,VTIP,484908.0
+Amerco inc,UHAL,41566.0
+Targa resources inc,TRGP,328500.0
+Vishay precision group inc,VPG,769673.0
+Lsb industries inc,LXU,1132689.0
+Mongodb inc,MDB,55700.0
+Fox corp class a,FOXA,626192.0
+Teck resources ltd,TECK,610576.0
+Snap-on inc.,SNA,119900.0
+Universal corp. (universal leaf tobacco),UVV,421011.0
+Mattel inc.,MAT,1100600.0
+First industrial realty trust  inc.,FR,394700.0
+E.l.f. beauty inc,ELF,945900.0
+Copa holdings s.a.,CPA,292028.0
+Cornerstone building brands inc,CNR,1002348.0
+Northfield bancorp inc,NFBK,1695151.0
+Teva pharmaceutical industries ltd  adr,TEVA,2589163.0
+Gartner  inc.,IT,81509.0
+Lattice semconductor corp.,LSCC,397500.0
+Companhia vale de rio doce s.a. adr,VALE,1209759.0
+Tegna inc. (gannett co.),TGNA,1075800.0
+Southside bancshares  inc.,SBSI,588846.0
+Wendys co. (the),WEN,1091882.0
+Kornit digital ltd,KRNT,290100.0
+Primo water corp,PRMW,1678042.0
+Cvr energy inc,CVI,935984.0
+American national insurance co. (galveston  tx),ANAT,126351.0
+Methanex corp,MEOH,434548.0
+Mercantile bank corp.,MBWM,668513.0
+Cubesmart,CUBE,454595.0
+Huntsman corp,HUN,628000.0
+Huntington ingalls industries inc,HII,117800.0
+Grupo aero sureste sa ads,ASR,105983.0
+Fti consulting  inc.,FCN,149300.0
+Exp world holdings inc,EXPI,1106449.0
+Lennox international  inc.,LII,90600.0
+Canadian imperial bank of commerce (nyse),CM,383528.0
+Ansys  inc.,ANSS,73029.0
+Agco corp,AGCO,158600.0
+Semtech corp,SMTC,333916.0
+Jetblue airways corp,JBLU,1545600.0
+Cinemark holdings inc,CNK,1334400.0
+Sumitomo mitsui financial group inc. adr,SMFG,3652570.0
+Dht holdings inc,DHT,3937819.0
+Univest financial corp,UVSP,852769.0
+Skyworks solutions  inc.,SWKS,170783.0
+Exelon corp,EXC,477300.0
+Middlesex water co,MSEX,215300.0
+Kbr inc,KBR,413500.0
+United states lime & minerals  inc.,USLM,194318.0
+Ingles markets  inc class a,IMKTA,252858.0
+Korn ferry,KFY,346700.0
+Extreme networks inc.,EXTR,1839085.0
+Reliance steel & aluminum co.,RS,122112.0
+Tencent music entertainment group,TME,4596700.0
+Knot offshore partners l.p.,KNOP,1321331.0
+Sps commerce inc,SPSC,170203.0
+Stifel financial corp,SF,327015.0
+Heico corp.  class a,HEI.A,174577.0
+Towne bank/portsmouth va,TOWN,739182.0
+American eagle outfitters inc,AEO,1315263.0
+Emcor group  inc.,EME,195500.0
+Magnolia oil & gas corp class a,MGY,930900.0
+Firstenergy corp.,FE,479667.0
+Robert half international  inc.,RHI,191400.0
+Ishares 0-5 year tips bond etf,STIP,208200.0
+Xperi corp,XPER,1259943.0
+Graco inc.,GGG,311400.0
+Lincoln national corp.,LNC,332174.0
+Jfrog ltd.,FROG,804300.0
+Bread financial holdings inc,BFH,384942.0
+Jefferies financial group inc. (talcott national - leucadia national),JEF,657289.0
+Antero midstream corp,AM,1980382.0
+Spdr bloomberg high yield bond etf,JNK,209900.0
+Coterra energy inc,CTRA,796770.0
+Five below inc,FIVE,135500.0
+Pinnacle financial partners inc,PNFP,232496.0
+Cutera inc,CUTR,309634.0
+Vimeo inc,VMEO,1798000.0
+Neophotonics corp,NPTN,1403857.0
+Fastly inc,FSLY,1226800.0
+Essex property trust  inc.,ESS,61526.0
+Partner communications co ltd adr,PTNR,2576850.0
+Stratasys ltd,SSYS,833432.0
+Qcr holdings inc,QCRH,373600.0
+Mohawk industries inc.,MHK,169800.0
+Pbf energy inc,PBF,864700.0
+Netease inc adr,NTES,234400.0
+American public education inc,APEI,988293.0
+Aurinia pharmaceuticals inc,AUPH,1694200.0
+Great lakes dredge & dock corp.,GLDD,1491201.0
+Infosys ltd adr,INFY,838100.0
+Ferroglobe plc,GSM,2687794.0
+Catchmark timber trust inc,CTT,2521067.0
+Johnson outdoors  inc.  class a,JOUT,264900.0
+Diamond hill investment group,DHIL,109881.0
+Hewlett packard enterprise co,HPE,1229100.0
+Skyline champion corp,SKY,373300.0
+Sandstorm gold ltd,SAND,2529100.0
+Western alliance bancorporation,WAL,245704.0
+Pubmatic  inc.,PUBM,776900.0
+Liberty braves group series c,BATRK,720619.0
+Utah medical products  inc.,UTMD,223714.0
+Columbia financial inc,CLBK,932432.0
+Hometrust bancshares inc,HTBI,678709.0
+Rayonier advanced materials inc,RYAM,3046316.0
+Fortive corp,FTV,328300.0
+Oasis petroleum inc,OAS,136000.0
+Janus henderson group plc,JHG,567400.0
+Banco santander chile adr,BSAC,879500.0
+Schein (henry) inc.,HSIC,226912.0
+Haynes international inc,HAYN,464100.0
+Blucora inc,BCOR,1010900.0
+Delta air lines inc.,DAL,498300.0
+Atn international inc,ATNI,494400.0
+W.p. carey inc,WPC,243800.0
+Argan inc.,AGX,483299.0
+Ziff davis inc,ZD,202500.0
+Proassurance corp.,PRA,727500.0
+Safe bulkers inc.,SB,4107086.0
+Adtran inc,ADTN,1048473.0
+Cardiovascular systems inc,CSII,853058.0
+3d systems corp.,DDD,1152250.0
+Shake shack inc,SHAK,282400.0
+Ci financial corp,CIXX,1203100.0
+Outfront media inc,OUT,671600.0
+Westinghouse air brake technologies corp,WAB,198195.0
+Invesco senior loan etf,BKLN,873700.0
+Barrett business services inc,BBSI,245400.0
+Barclays bank plc sponsored adr,BCS,2405686.0
+Ambev s.a. adr,ABEV,5879931.0
+Choice hotels international  inc.,CHH,133500.0
+Kronos worldwide inc.,KRO,1218400.0
+Alpha and omega semiconductor ltd,AOSL,345700.0
+Thermo fisher scientific  inc.,TMO,31900.0
+Knowles corp.,KN,874374.0
+Dolby laboratories,DLB,240502.0
+Autozone inc.,AZO,9200.0
+Dentsply international inc. (1983),XRAY,381058.0
+Wisdomtree dynamic currency hedged international quality dividend grow,RESD,372700.0
+Affirm holdings inc,AFRM,404400.0
+Hollysys automation technologies ltd,HOLI,1171670.0
+Entravision communications corp. class a,EVC,2919095.0
+Piper jaffray companies,PIPR,141795.0
+Diodes inc.,DIOD,212651.0
+Loews corp,L,285200.0
+Telefonica brasil s.a.,VIV,1639900.0
+Owl rock capital corp,ORCC,1246300.0
+Silvercorp metals inc,SVM,5068096.0
+Match group inc.,MTCH,168853.0
+Interactive brokers group inc,IBKR,277300.0
+Equinix inc,EQIX,24570.0
+Taseko mines ltd,TGB,7913714.0
+Pg&e corp. (pacific gas & electric),PCG,1509900.0
+Ford motor co.,F,1060609.0
+Vontier corp.,VNT,705300.0
+Fox factory holding corp,FOXF,182793.0
+Ollies bargain outlet holdings inc,OLLI,416200.0
+Under armour inc cl c,UA,1145100.0
+Great southern bancorp  inc.,GSBC,301600.0
+Guidewire software  inc.,GWRE,187800.0
+Tri pointe homes inc (de),TPH,883736.0
+Ssga spdr gold shares,GLD,98100.0
+Vaneck semiconductor etf,SMH,65625.0
+Lithium americas corp,LAC,459200.0
+Safety insurance group inc,SAFT,194300.0
+Materion corp,MTRN,205507.0
+Century aluminum co.,CENX,669199.0
+Doximity inc,DOCS,337800.0
+Equitrans midstream corp,ETRN,2077599.0
+Ishares msci brazil etf,EWZ,463400.0
+Arrowhead pharmaceuticals inc,ARWR,380300.0
+Signet jewelers ltd,SIG,240500.0
+Algonquin power & utilities,AQN,1125992.0
+Pgt innovations inc,PGTI,971597.0
+Commercial vehicle group inc,CVGI,2067004.0
+Nielsen n.v.,NLSN,641000.0
+Ardagh metal packaging s.a.,AMBP,2145129.0
+Sapiens international corp,SPNS,686491.0
+Upwork inc,UPWK,750000.0
+Eastgroup properties  inc.,EGP,85700.0
+Shenandoah telecommunications co,SHEN,738794.0
+Littelfuse inc.,LFUS,69734.0
+Sun communities  inc.,SUI,99200.0
+Constellation brands  inc.,STZ,75500.0
+Artesian resources corp  class a,ARTNA,357411.0
+Sinclair broadcast group inc  class a,SBGI,618571.0
+Orthofix medical inc.,OFIX,529090.0
+Warner music group corp. class a,WMG,456200.0
+Sierra wireless inc,SWIR,956300.0
+Editas medicine inc,EDIT,903400.0
+Childrens place inc,PLCE,348360.0
+Peoples united financial  inc.,PBCT,858793.0
+Futurefuel corp,FF,1760400.0
+Natl research corporation,NRC,431984.0
+Rush enterprises  inc. class b,RUSHB,353799.0
+Village super market inc.  class a,VLGEA,697600.0
+Perrigo co plc,PRGO,444208.0
+Umpqua holdings corp.,UMPQ,904978.0
+Stitch fix inc,SFIX,1692400.0
+Toll brothers  inc.,TOL,362000.0
+Columbia banking system  inc.,COLB,527286.0
+Companhia de saneamento basico do estado de sao paulo-sabesp ads adr,SBS,1731045.0
+First defiance financial corp,PFC,560420.0
+West fraser timber co ltd,WFG,206100.0
+Anika therapeutics inc.,ANIK,676217.0
+Global ship lease inc,GSL,595252.0
+Viatris inc,VTRS,1557666.0
