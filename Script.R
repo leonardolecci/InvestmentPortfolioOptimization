@@ -19,7 +19,7 @@ dim_portfolio <- dim_portfolio[1]
 stock_vector <- c(NULL)
 
 # Create vector with the biggest 855 stock held by the fund
-for(p in 1:3){
+for(p in 1:dim_portfolio){
   stock_vector <- append(stock_vector, portfolio[p,2])
 }
 length_vector <- length(stock_vector)
@@ -30,7 +30,7 @@ adj_position <- c(NULL)
 
 
 # loop to get alll the values of stock through quantmod
-for(i in 1:3){
+for(i in 1:length_vector){
   stock_values <- NULL
   stock_values <- getSymbols(stock_vector[i], auto.assign = FALSE)
   joined_prices <- cbind(joined_prices, stock_values)
@@ -65,7 +65,7 @@ joined_monthly_returns <- NULL
 trading_days_month <- 25
 
 # for cycle for combining all log returns in a single df
-for(i in 1:length(stock_vector)){
+for(i in 1:length_vector){
   joined_monthly_returns <- cbind(joined_monthly_returns, window_returns(x=joined_returns_loop[,i], t=25))
 }
 
@@ -78,7 +78,7 @@ joined_monthly_returns <- as.data.frame(joined_monthly_returns)
 stock_held <- c(NULL)
 
 # Create vector with the biggest 855 stock held by the fund
-for(p in 1:3){
+for(p in 1:length_vector){
   stock_held <- append(stock_held, portfolio[p,3])
 }
 
@@ -86,7 +86,7 @@ tot_stock_held <- sum(stock_held)
 
 # calculate portfolio allocation
 alloc_vect <- c(NULL)
-for(i in 1:3){
+for(i in 1:length_vector){
   alloc_vect <- append(alloc_vect, stock_held[i]/tot_stock_held)
 }
 
@@ -94,7 +94,7 @@ for(i in 1:3){
 
 prop_returns <- c(NULL)
 
-for(i in 1:3){
+for(i in 1:length_vector){
   prop_returns <- append(prop_returns, joined_monthly_returns[i]*alloc_vect[i])
 }
 
@@ -104,3 +104,24 @@ prop_returns <- as.data.frame(prop_returns)
 for(i in 1:nrow(joined_monthly_returns)){
   joined_monthly_returns$portfolio[i] <- rowSums(prop_returns[i,],na.rm=TRUE)
 }
+
+
+# INVESTMENT RISK
+
+# Calculating sigma to show total risk for assets and portfolio
+
+# Taking only every 25th elements of the monthly returns
+one_montlhy_returns <- as.data.frame(NULL)
+one_montlhy_returns = joined_monthly_returns[seq(25, nrow(joined_monthly_returns), 25), ]
+
+
+time_index <- nrow(one_montlhy_returns)
+#joined_monthly_returns <- as.data.frame(joined_monthly_returns)
+sigma_vector <- c(NULL)
+
+for(i in 1:(length_vector+1)){
+  sigma_vector <- append(sigma_vector, sd(one_montlhy_returns[(time_index-11):time_index,i])*sqrt(12))
+}
+
+
+
