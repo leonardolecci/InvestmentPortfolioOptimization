@@ -123,5 +123,6 @@ for(i in 1:(length_vector+1)){
   sigma_vector <- append(sigma_vector, sd(one_montlhy_returns[(time_index-11):time_index,i])*sqrt(12))
 }
 
+sigma_df <- as.data.frame(sigma_vector)
 
 
