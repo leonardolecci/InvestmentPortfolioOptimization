@@ -105,7 +105,7 @@ prop_returns <- as.data.frame(prop_returns)
 for(i in 1:nrow(joined_monthly_returns)){
   joined_monthly_returns$portfolio[i] <- rowSums(prop_returns[i,],na.rm=TRUE)
 }
-
+stock_vector_port <- append(stock_vector, "portfolio")
 
 # INVESTMENT RISK
 
@@ -137,6 +137,9 @@ sigma_df <- cbind(sigma_df, sigma_vector_36_months)
 sigma_df <- cbind(sigma_df, sigma_vector_48_months)
 sigma_df <- cbind(sigma_df, sigma_vector_60_months)
 
+rownames(sigma_df) <- stock_vector_port
+colnames(sigma_df) <- c("12 Months", "24 Months", "36 Months", "48 Months", "60 Months")
+
 # TRACKING ERROR
 # Adding NASDAQ:NDAQ as benchmark for Renaissance tech
 
@@ -145,6 +148,13 @@ NDAQ <- window_returns(NDAQ_adjusted[,1], t=25)
 joined_monthly_returns <- cbind(joined_monthly_returns, NDAQ)
 NDAQ <- joined_monthly_returns$NDAQ[seq(25, nrow(joined_monthly_returns), 25)]
 one_montlhy_returns <- cbind(one_montlhy_returns, NDAQ)
+stock_vector_port_bench <- append(stock_vector_port, "NDAQ (Benchmark)")
+
+
+# renaming all columns with stocks stickers
+colnames(one_montlhy_returns) <- stock_vector_port_bench
+colnames(joined_monthly_returns) <- stock_vector_port_bench
+
 
 # calculating tracking error on active returns
 
@@ -167,5 +177,41 @@ te_df <- cbind(te_df, te_vector_24_months)
 te_df <- cbind(te_df, te_vector_36_months)
 te_df <- cbind(te_df, te_vector_48_months)
 te_df <- cbind(te_df, te_vector_60_months)
+
+rownames(te_df) <- stock_vector_port
+colnames(te_df) <- c("12 Months", "24 Months", "36 Months", "48 Months", "60 Months")
+
+
+# Sharpe ratio
+
+
+risk_free <- 0.00000000000000001
+
+sharpe_vector_12_months <- c(NULL)
+sharpe_vector_24_months <- c(NULL)
+sharpe_vector_36_months <- c(NULL)
+sharpe_vector_48_months <- c(NULL)
+sharpe_vector_60_months <- c(NULL)
+
+for(i in 1:(length_vector+1)){
+  sharpe_vector_12_months <- append(sharpe_vector_12_months, (mean((one_montlhy_returns[(time_index-11):time_index, i]*sqrt(12))-risk_free)/sigma_df$`12 Months`[i]))
+  sharpe_vector_24_months <- append(sharpe_vector_24_months, (mean((one_montlhy_returns[(time_index-23):time_index, i]*sqrt(12))-risk_free)/sigma_df$`24 Months`[i]))
+  sharpe_vector_36_months <- append(sharpe_vector_36_months, (mean((one_montlhy_returns[(time_index-35):time_index, i]*sqrt(12))-risk_free)/sigma_df$`36 Months`[i]))
+  sharpe_vector_48_months <- append(sharpe_vector_48_months, (mean((one_montlhy_returns[(time_index-47):time_index, i]*sqrt(12))-risk_free)/sigma_df$`48 Months`[i]))
+  sharpe_vector_60_months <- append(sharpe_vector_60_months, (mean((one_montlhy_returns[(time_index-59):time_index, i]*sqrt(12))-risk_free)/sigma_df$`60 Months`[i]))
+}
+
+sharpe_df <- as.data.frame(sharpe_vector_12_months)
+sharpe_df <- cbind(sharpe_df, sharpe_vector_24_months)
+sharpe_df <- cbind(sharpe_df, sharpe_vector_36_months)
+sharpe_df <- cbind(sharpe_df, sharpe_vector_48_months)
+sharpe_df <- cbind(sharpe_df, sharpe_vector_60_months)
+
+rownames(sharpe_df) <- stock_vector_port
+colnames(sharpe_df) <- c("12 Months", "24 Months", "36 Months", "48 Months", "60 Months")
+
+
+
+
 
 
