@@ -7,6 +7,7 @@
 #install.packages("quantmod")
 
 library(quantmod)
+library(dplyr)
 
 # Step 1: pulling in pricing data and combining the data frames gathered
 
@@ -116,15 +117,25 @@ one_montlhy_returns = joined_monthly_returns[seq(25, nrow(joined_monthly_returns
 
 
 time_index <- nrow(one_montlhy_returns)
-sigma_vector <- c(NULL)
+sigma_vector_12_months <- c(NULL)
+sigma_vector_24_months <- c(NULL)
+sigma_vector_36_months <- c(NULL)
+sigma_vector_48_months <- c(NULL)
+sigma_vector_60_months <- c(NULL)
 
 for(i in 1:(length_vector+1)){
   sigma_vector_12_months <- append(sigma_vector_12_months, sd(one_montlhy_returns[(time_index-11):time_index,i])*sqrt(12))
-  sigma_vector_24_months <- append(sigma_vector_24_months, sd(one_montlhy_returns[(time_index-23):time_index,i])*sqrt(12))
+  sigma_vector_24_months <- append(sigma_vector_24_months, sd(one_montlhy_returns[(time_index-23):time_index,i])*sqrt(12))  
+  sigma_vector_36_months <- append(sigma_vector_36_months, sd(one_montlhy_returns[(time_index-35):time_index,i])*sqrt(12))
+  sigma_vector_48_months <- append(sigma_vector_48_months, sd(one_montlhy_returns[(time_index-47):time_index,i])*sqrt(12))
+  sigma_vector_60_months <- append(sigma_vector_60_months, sd(one_montlhy_returns[(time_index-59):time_index,i])*sqrt(12))
 }
 
 sigma_df <- as.data.frame(sigma_vector_12_months)
 sigma_df <- cbind(sigma_df, sigma_vector_24_months)
+sigma_df <- cbind(sigma_df, sigma_vector_36_months)
+sigma_df <- cbind(sigma_df, sigma_vector_48_months)
+sigma_df <- cbind(sigma_df, sigma_vector_60_months)
 
 # TRACKING ERROR
 # Adding NASDAQ:NDAQ as benchmark for Renaissance tech
@@ -133,3 +144,13 @@ NDAQ_adjusted <- as.data.frame(getSymbols("NDAQ", auto.assign = FALSE)[,6])
 NDAQ <- window_returns(NDAQ_adjusted[,1], t=25)
 joined_monthly_returns <- cbind(joined_monthly_returns, NDAQ)
 
+# calculating tracking error on active returns
+
+te_vector <- c(NULL)
+
+for(i in 1:(length_vector+1)){
+  sigma_vector_12_months <- append(sigma_vector_12_months, sd(one_montlhy_returns[(time_index-11):time_index,i])*sqrt(12))
+  sigma_vector_24_months <- append(sigma_vector_24_months, sd(one_montlhy_returns[(time_index-23):time_index,i])*sqrt(12))
+}
+
+sigma_df <- as.data.frame(sigma_vector_12_months)
