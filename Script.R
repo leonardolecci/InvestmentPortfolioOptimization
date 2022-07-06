@@ -113,7 +113,7 @@ for(i in 1:nrow(joined_monthly_returns)){
 
 # Taking only every 25th elements of the monthly returns
 one_montlhy_returns <- as.data.frame(NULL)
-one_montlhy_returns = joined_monthly_returns[seq(25, nrow(joined_monthly_returns), 25), ]
+one_montlhy_returns <-  joined_monthly_returns[seq(25, nrow(joined_monthly_returns), 25), ]
 
 
 time_index <- nrow(one_montlhy_returns)
@@ -143,14 +143,29 @@ sigma_df <- cbind(sigma_df, sigma_vector_60_months)
 NDAQ_adjusted <- as.data.frame(getSymbols("NDAQ", auto.assign = FALSE)[,6])
 NDAQ <- window_returns(NDAQ_adjusted[,1], t=25)
 joined_monthly_returns <- cbind(joined_monthly_returns, NDAQ)
+NDAQ <- joined_monthly_returns$NDAQ[seq(25, nrow(joined_monthly_returns), 25)]
+one_montlhy_returns <- cbind(one_montlhy_returns, NDAQ)
 
 # calculating tracking error on active returns
 
-te_vector <- c(NULL)
+te_vector_12_months <- c(NULL)
+te_vector_24_months <- c(NULL)
+te_vector_36_months <- c(NULL)
+te_vector_48_months <- c(NULL)
+te_vector_60_months <- c(NULL)
 
 for(i in 1:(length_vector+1)){
-  sigma_vector_12_months <- append(sigma_vector_12_months, sd(one_montlhy_returns[(time_index-11):time_index,i])*sqrt(12))
-  sigma_vector_24_months <- append(sigma_vector_24_months, sd(one_montlhy_returns[(time_index-23):time_index,i])*sqrt(12))
+  te_vector_12_months <- append(te_vector_12_months, sd(one_montlhy_returns[(time_index-11):time_index,i]-one_montlhy_returns$NDAQ[(time_index-11):time_index])*sqrt(12))
+  te_vector_24_months <- append(te_vector_24_months, sd(one_montlhy_returns[(time_index-23):time_index,i]-one_montlhy_returns$NDAQ[(time_index-23):time_index])*sqrt(12))
+  te_vector_36_months <- append(te_vector_36_months, sd(one_montlhy_returns[(time_index-35):time_index,i]-one_montlhy_returns$NDAQ[(time_index-35):time_index])*sqrt(12))
+  te_vector_48_months <- append(te_vector_48_months, sd(one_montlhy_returns[(time_index-47):time_index,i]-one_montlhy_returns$NDAQ[(time_index-47):time_index])*sqrt(12))
+  te_vector_60_months <- append(te_vector_60_months, sd(one_montlhy_returns[(time_index-59):time_index,i]-one_montlhy_returns$NDAQ[(time_index-59):time_index])*sqrt(12)) 
 }
 
-sigma_df <- as.data.frame(sigma_vector_12_months)
+te_df <- as.data.frame(te_vector_12_months)
+te_df <- cbind(te_df, te_vector_24_months)
+te_df <- cbind(te_df, te_vector_36_months)
+te_df <- cbind(te_df, te_vector_48_months)
+te_df <- cbind(te_df, te_vector_60_months)
+
+
