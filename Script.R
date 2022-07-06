@@ -116,15 +116,15 @@ one_montlhy_returns = joined_monthly_returns[seq(25, nrow(joined_monthly_returns
 
 
 time_index <- nrow(one_montlhy_returns)
-#joined_monthly_returns <- as.data.frame(joined_monthly_returns)
 sigma_vector <- c(NULL)
 
 for(i in 1:(length_vector+1)){
-  sigma_vector <- append(sigma_vector, sd(one_montlhy_returns[(time_index-11):time_index,i])*sqrt(12))
+  sigma_vector_12_months <- append(sigma_vector_12_months, sd(one_montlhy_returns[(time_index-11):time_index,i])*sqrt(12))
+  sigma_vector_24_months <- append(sigma_vector_24_months, sd(one_montlhy_returns[(time_index-23):time_index,i])*sqrt(12))
 }
 
-sigma_df <- as.data.frame(sigma_vector)
-
+sigma_df <- as.data.frame(sigma_vector_12_months)
+sigma_df <- cbind(sigma_df, sigma_vector_24_months)
 
 # TRACKING ERROR
 # Adding NASDAQ:NDAQ as benchmark for Renaissance tech
