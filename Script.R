@@ -132,4 +132,4 @@ sigma_df <- as.data.frame(sigma_vector)
 NDAQ_adjusted <- as.data.frame(getSymbols("NDAQ", auto.assign = FALSE)[,6])
 NDAQ <- window_returns(NDAQ_adjusted[,1], t=25)
 joined_monthly_returns <- cbind(joined_monthly_returns, NDAQ)
-
+#shfgiruhg
