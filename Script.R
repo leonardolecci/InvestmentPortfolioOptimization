@@ -7,7 +7,6 @@
 #install.packages("quantmod")
 
 library(quantmod)
-library(dplyr)
 
 # Step 1: pulling in pricing data and combining the data frames gathered
 
@@ -20,7 +19,7 @@ dim_portfolio <- dim_portfolio[1]
 stock_vector <- c(NULL)
 
 # Create vector with the biggest 855 stock held by the fund
-for(p in 1:5){
+for(p in 1:20){
   stock_vector <- append(stock_vector, portfolio[p,2])
 }
 length_vector <- length(stock_vector)
