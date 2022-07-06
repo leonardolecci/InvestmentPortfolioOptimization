@@ -19,7 +19,7 @@ dim_portfolio <- dim_portfolio[1]
 stock_vector <- c(NULL)
 
 # Create vector with the biggest 855 stock held by the fund
-for(p in 1:dim_portfolio){
+for(p in 1:5){
   stock_vector <- append(stock_vector, portfolio[p,2])
 }
 length_vector <- length(stock_vector)
@@ -125,4 +125,11 @@ for(i in 1:(length_vector+1)){
 
 sigma_df <- as.data.frame(sigma_vector)
 
+
+# TRACKING ERROR
+# Adding NASDAQ:NDAQ as benchmark for Renaissance tech
+
+NDAQ_adjusted <- as.data.frame(getSymbols("NDAQ", auto.assign = FALSE)[,6])
+NDAQ <- window_returns(NDAQ_adjusted[,1], t=25)
+joined_monthly_returns <- cbind(joined_monthly_returns, NDAQ)
 
