@@ -7,6 +7,8 @@
 #install.packages("quantmod")
 
 library(quantmod)
+library(corrplot)
+
 
 # Step 1: pulling in pricing data and combining the data frames gathered
 
@@ -19,7 +21,7 @@ dim_portfolio <- dim_portfolio[1]
 stock_vector <- c(NULL)
 
 # Create vector with the biggest 855 stock held by the fund
-for(p in 1:5){
+for(p in 1:3){
   stock_vector <- append(stock_vector, portfolio[p,2])
 }
 length_vector <- length(stock_vector)
@@ -147,7 +149,7 @@ NDAQ <- window_returns(NDAQ_adjusted[,1], t=25)
 joined_monthly_returns <- cbind(joined_monthly_returns, NDAQ)
 NDAQ <- joined_monthly_returns$NDAQ[seq(25, nrow(joined_monthly_returns), 25)]
 one_montlhy_returns <- cbind(one_montlhy_returns, NDAQ)
-stock_vector_port_bench <- append(stock_vector_port, "NDAQ (Benchmark)")
+stock_vector_port_bench <- append(stock_vector_port, "NDAQ")
 
 
 # renaming all columns with stocks stickers
@@ -208,6 +210,25 @@ sharpe_df <- cbind(sharpe_df, sharpe_vector_60_months)
 
 rownames(sharpe_df) <- stock_vector_port
 colnames(sharpe_df) <- c("12 Months", "24 Months", "36 Months", "48 Months", "60 Months")
+
+
+# See lm modelling
+
+# TODO last 12, 36, 48, 60
+last_24 <- one_montlhy_returns[(time_index-23):time_index,]
+
+NVO_reg <- lm(NVO~NDAQ, data=last_24)
+summary(NVO_reg)
+
+TSLA_reg <- lm(TSLA~NDAQ, data=last_24)
+summary(TSLA_reg)
+
+KR_reg <- lm(KR~NDAQ, data=last_24)
+summary(KR_reg)
+
+port_reg <- lm(portfolio~NDAQ, data=last_24)
+summary(port_reg)
+
 
 
 
