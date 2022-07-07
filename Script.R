@@ -19,7 +19,7 @@ dim_portfolio <- dim_portfolio[1]
 stock_vector <- c(NULL)
 
 # Create vector with the biggest 855 stock held by the fund
-for(p in 1:20){
+for(p in 1:5){
   stock_vector <- append(stock_vector, portfolio[p,2])
 }
 length_vector <- length(stock_vector)
@@ -193,11 +193,11 @@ sharpe_vector_48_months <- c(NULL)
 sharpe_vector_60_months <- c(NULL)
 
 for(i in 1:(length_vector+1)){
-  sharpe_vector_12_months <- append(sharpe_vector_12_months, (mean((one_montlhy_returns[(time_index-11):time_index, i]*sqrt(12))-risk_free)/sigma_df$`12 Months`[i]))
-  sharpe_vector_24_months <- append(sharpe_vector_24_months, (mean((one_montlhy_returns[(time_index-23):time_index, i]*sqrt(12))-risk_free)/sigma_df$`24 Months`[i]))
-  sharpe_vector_36_months <- append(sharpe_vector_36_months, (mean((one_montlhy_returns[(time_index-35):time_index, i]*sqrt(12))-risk_free)/sigma_df$`36 Months`[i]))
-  sharpe_vector_48_months <- append(sharpe_vector_48_months, (mean((one_montlhy_returns[(time_index-47):time_index, i]*sqrt(12))-risk_free)/sigma_df$`48 Months`[i]))
-  sharpe_vector_60_months <- append(sharpe_vector_60_months, (mean((one_montlhy_returns[(time_index-59):time_index, i]*sqrt(12))-risk_free)/sigma_df$`60 Months`[i]))
+  sharpe_vector_12_months <- append(sharpe_vector_12_months, (mean((((1+one_montlhy_returns[(time_index-11):time_index, i])^12)-1)-risk_free)/sigma_df$`12 Months`[i]))
+  sharpe_vector_24_months <- append(sharpe_vector_24_months, (mean((((1+one_montlhy_returns[(time_index-23):time_index, i])^12)-1)-risk_free)/sigma_df$`24 Months`[i]))
+  sharpe_vector_36_months <- append(sharpe_vector_36_months, (mean((((1+one_montlhy_returns[(time_index-35):time_index, i])^12)-1)-risk_free)/sigma_df$`36 Months`[i]))
+  sharpe_vector_48_months <- append(sharpe_vector_48_months, (mean((((1+one_montlhy_returns[(time_index-47):time_index, i])^12)-1)-risk_free)/sigma_df$`48 Months`[i]))
+  sharpe_vector_60_months <- append(sharpe_vector_60_months, (mean((((1+one_montlhy_returns[(time_index-59):time_index, i])^12)-1)-risk_free)/sigma_df$`60 Months`[i]))
 }
 
 sharpe_df <- as.data.frame(sharpe_vector_12_months)
