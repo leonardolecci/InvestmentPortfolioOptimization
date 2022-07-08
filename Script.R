@@ -8,7 +8,7 @@
 
 library(quantmod)
 library(corrplot)
-
+source("/Users/leonardolecci/Library/Mobile Documents/com~apple~CloudDocs/Hult/Wealth Mngmt/InvestmentPortfolioOptimization/famafrench.R")
 
 # Step 1: pulling in pricing data and combining the data frames gathered
 
@@ -228,6 +228,15 @@ summary(KR_reg)
 
 port_reg <- lm(portfolio~NDAQ, data=last_24)
 summary(port_reg)
+
+
+#calling the Fama French 3F model UDF for TSLA
+TSLA_ff3f <- fama_french_3F(ticker="TSLA", from_date='2020-07-01', to_date='2022-07-01')
+summary(TSLA_ff3f[[2]])#looking at factor loading - are any statistically significant
+#now let's visualize the model error and the cumulative stock returns
+ggplot(data=TSLA_ff3f[[1]])+
+  geom_line(aes(x=Date, y=rr_spf), color="red4")+
+  geom_line(aes(x=Date, y=tr_cum), color="blue") #red is the error and blue is the stock return
 
 
 
