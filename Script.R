@@ -21,7 +21,7 @@ dim_portfolio <- dim_portfolio[1]
 stock_vector <- c(NULL)
 
 # Create vector with the biggest 855 stock held by the fund
-for(p in 1:3){
+for(p in 1:5){
   stock_vector <- append(stock_vector, portfolio[p,2])
 }
 length_vector <- length(stock_vector)
@@ -237,14 +237,58 @@ for(i in 1:(length_vector+1)){
 
 names(CAPM_list) <- stock_vector_port
 
+# PASSING ONTO FAMA FRENCH
 
-#calling the Fama French 3F model UDF for TSLA
-TSLA_ff3f <- fama_french_3F(ticker="TSLA", from_date='2020-07-01', to_date='2022-07-01')
-summary(TSLA_ff3f[[2]])#looking at factor loading - are any statistically significant
+# Fama French with 3 factors
+
+# creating today's date and years back
+
+today <- as.character.Date(as.Date(Sys.Date()))
+
+begin_date_12 <- as.POSIXlt(as.Date(Sys.Date()))
+begin_date_12$year <- begin_date_12$year-1
+begin_date_12 <- as.character.Date(begin_date_12)
+
+begin_date_24 <- as.POSIXlt(as.Date(Sys.Date()))
+begin_date_24$year <- begin_date_24$year-2
+begin_date_24 <- as.character.Date(begin_date_24)
+
+begin_date_36 <- as.POSIXlt(as.Date(Sys.Date()))
+begin_date_36$year <- begin_date_36$year-3
+begin_date_36 <- as.character.Date(begin_date_36)
+
+begin_date_48 <- as.POSIXlt(as.Date(Sys.Date()))
+begin_date_48$year <- begin_date_48$year-4
+begin_date_48 <- as.character.Date(begin_date_48)
+
+begin_date_60 <- as.POSIXlt(as.Date(Sys.Date()))
+begin_date_60$year <- begin_date_60$year-5
+begin_date_60 <- as.character.Date(begin_date_60)
+
+
+# creating final list for all regression
+ff3f_list <- list()
+
+for(i in 1:(length_vector)){
+  reg_ff3f_12 <- fama_french_3F(ticker=stock_vector[i], from_date=begin_date_12, to_date=today)
+  reg_ff3f_24 <- fama_french_3F(ticker=stock_vector[i], from_date=begin_date_24, to_date=today)
+  reg_ff3f_36 <- fama_french_3F(ticker=stock_vector[i], from_date=begin_date_36, to_date=today)
+  reg_ff3f_48 <- fama_french_3F(ticker=stock_vector[i], from_date=begin_date_48, to_date=today)
+  reg_ff3f_60 <- fama_french_3F(ticker=stock_vector[i], from_date=begin_date_60, to_date=today)
+  reg_ff3f_list <- list(reg_ff3f_12, reg_ff3f_24, reg_ff3f_36, reg_ff3f_48, reg_ff3f_60)
+  names(reg_ff3f_list) <- c("12_Months", "24_Months", "36_Months", "48_Months", "60_Months")
+  ff3f_list <- append(ff3f_list, list(reg_ff3f_list))
+}
+
+names(ff3f_list) <- stock_vector
+
+
+
+#summary(reg_ff3f_12[[2]])#looking at factor loading - are any statistically significant
 #now let's visualize the model error and the cumulative stock returns
-ggplot(data=TSLA_ff3f[[1]])+
-  geom_line(aes(x=Date, y=rr_spf), color="red4")+
-  geom_line(aes(x=Date, y=tr_cum), color="blue") #red is the error and blue is the stock return
+#ggplot(data=TSLA_ff3f[[1]])+
+#  geom_line(aes(x=Date, y=rr_spf), color="red4")+
+#  geom_line(aes(x=Date, y=tr_cum), color="blue") #red is the error and blue is the stock return
 
 
 
