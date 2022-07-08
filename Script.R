@@ -215,19 +215,27 @@ colnames(sharpe_df) <- c("12 Months", "24 Months", "36 Months", "48 Months", "60
 # See lm modelling
 
 # TODO last 12, 36, 48, 60
+last_12 <- one_montlhy_returns[(time_index-11):time_index,]
 last_24 <- one_montlhy_returns[(time_index-23):time_index,]
+last_36 <- one_montlhy_returns[(time_index-35):time_index,]
+last_48 <- one_montlhy_returns[(time_index-47):time_index,]
+last_60 <- one_montlhy_returns[(time_index-59):time_index,]
 
-NVO_reg <- lm(NVO~NDAQ, data=last_24)
-summary(NVO_reg)
+CAPM_list <- list()
 
-TSLA_reg <- lm(TSLA~NDAQ, data=last_24)
-summary(TSLA_reg)
 
-KR_reg <- lm(KR~NDAQ, data=last_24)
-summary(KR_reg)
+for(i in 1:(length_vector+1)){
+  reg_12 <- lm(last_12[,i]~last_12[,ncol(last_12)])
+  reg_24 <- lm(last_24[,i]~last_24[,ncol(last_24)])
+  reg_36 <- lm(last_36[,i]~last_36[,ncol(last_36)])
+  reg_48 <- lm(last_48[,i]~last_48[,ncol(last_48)])
+  reg_60 <- lm(last_60[,i]~last_60[,ncol(last_60)])
+  reg_list <- list(reg_12, reg_24, reg_36, reg_48, reg_60)
+  names(reg_list) <- c("12_Months", "24_Months", "36_Months", "48_Months", "60_Months")
+  CAPM_list <- append(CAPM_list, list(reg_list))
+}
 
-port_reg <- lm(portfolio~NDAQ, data=last_24)
-summary(port_reg)
+names(CAPM_list) <- stock_vector_port
 
 
 #calling the Fama French 3F model UDF for TSLA
