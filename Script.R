@@ -21,7 +21,7 @@ dim_portfolio <- dim_portfolio[1]
 stock_vector <- c(NULL)
 
 # Create vector with the biggest 855 stock held by the fund
-for(p in 1:5){
+for(p in 1:3){
   stock_vector <- append(stock_vector, portfolio[p,2])
 }
 length_vector <- length(stock_vector)
@@ -139,7 +139,8 @@ sigma_df <- cbind(sigma_df, sigma_vector_48_months)
 sigma_df <- cbind(sigma_df, sigma_vector_60_months)
 
 rownames(sigma_df) <- stock_vector_port
-colnames(sigma_df) <- c("12 Months", "24 Months", "36 Months", "48 Months", "60 Months")
+n_months <- c("12_Months", "24_Months", "36_Months", "48_Months", "60_Months")
+colnames(sigma_df) <- n_months
 
 # TRACKING ERROR
 # Adding NASDAQ:NDAQ as benchmark for Renaissance tech
@@ -180,7 +181,7 @@ te_df <- cbind(te_df, te_vector_48_months)
 te_df <- cbind(te_df, te_vector_60_months)
 
 rownames(te_df) <- stock_vector_port
-colnames(te_df) <- c("12 Months", "24 Months", "36 Months", "48 Months", "60 Months")
+colnames(te_df) <- n_months
 
 
 # Sharpe ratio
@@ -209,7 +210,7 @@ sharpe_df <- cbind(sharpe_df, sharpe_vector_48_months)
 sharpe_df <- cbind(sharpe_df, sharpe_vector_60_months)
 
 rownames(sharpe_df) <- stock_vector_port
-colnames(sharpe_df) <- c("12 Months", "24 Months", "36 Months", "48 Months", "60 Months")
+colnames(sharpe_df) <- n_months
 
 
 # See lm modelling
@@ -231,7 +232,7 @@ for(i in 1:(length_vector+1)){
   reg_48 <- lm(last_48[,i]~last_48[,ncol(last_48)])
   reg_60 <- lm(last_60[,i]~last_60[,ncol(last_60)])
   reg_list <- list(reg_12, reg_24, reg_36, reg_48, reg_60)
-  names(reg_list) <- c("12_Months", "24_Months", "36_Months", "48_Months", "60_Months")
+  names(reg_list) <- n_months
   CAPM_list <- append(CAPM_list, list(reg_list))
 }
 
@@ -276,7 +277,7 @@ for(i in 1:(length_vector)){
   reg_ff3f_48 <- fama_french_3F(ticker=stock_vector[i], from_date=begin_date_48, to_date=today)
   reg_ff3f_60 <- fama_french_3F(ticker=stock_vector[i], from_date=begin_date_60, to_date=today)
   reg_ff3f_list <- list(reg_ff3f_12, reg_ff3f_24, reg_ff3f_36, reg_ff3f_48, reg_ff3f_60)
-  names(reg_ff3f_list) <- c("12_Months", "24_Months", "36_Months", "48_Months", "60_Months")
+  names(reg_ff3f_list) <- n_months
   ff3f_list <- append(ff3f_list, list(reg_ff3f_list))
 }
 
@@ -284,11 +285,13 @@ names(ff3f_list) <- stock_vector
 
 
 
-#summary(reg_ff3f_12[[2]])#looking at factor loading - are any statistically significant
+summary(ff3f_list$stock_vector[1]$n_months[1][[2]]) 
+
+#looking at factor loading - are any statistically significant
 #now let's visualize the model error and the cumulative stock returns
-#ggplot(data=TSLA_ff3f[[1]])+
-#  geom_line(aes(x=Date, y=rr_spf), color="red4")+
-#  geom_line(aes(x=Date, y=tr_cum), color="blue") #red is the error and blue is the stock return
+ggplot(data=TSLA_ff3f[[1]])+
+  geom_line(aes(x=Date, y=rr_spf), color="red4")+
+  geom_line(aes(x=Date, y=tr_cum), color="blue") #red is the error and blue is the stock return
 
 
 
