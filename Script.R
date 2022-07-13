@@ -21,7 +21,7 @@ dim_portfolio <- dim_portfolio[1]
 stock_vector <- c(NULL)
 
 # Create vector with the biggest 855 stock held by the fund
-for(p in 1:3){
+for(p in 1:50){
   stock_vector <- append(stock_vector, portfolio[p,2])
 }
 length_vector <- length(stock_vector)
@@ -196,11 +196,11 @@ sharpe_vector_48_months <- c(NULL)
 sharpe_vector_60_months <- c(NULL)
 
 for(i in 1:(length_vector+1)){
-  sharpe_vector_12_months <- append(sharpe_vector_12_months, (mean((((1+one_montlhy_returns[(time_index-11):time_index, i])^12)-1)-risk_free)/sigma_df$`12 Months`[i]))
-  sharpe_vector_24_months <- append(sharpe_vector_24_months, (mean((((1+one_montlhy_returns[(time_index-23):time_index, i])^12)-1)-risk_free)/sigma_df$`24 Months`[i]))
-  sharpe_vector_36_months <- append(sharpe_vector_36_months, (mean((((1+one_montlhy_returns[(time_index-35):time_index, i])^12)-1)-risk_free)/sigma_df$`36 Months`[i]))
-  sharpe_vector_48_months <- append(sharpe_vector_48_months, (mean((((1+one_montlhy_returns[(time_index-47):time_index, i])^12)-1)-risk_free)/sigma_df$`48 Months`[i]))
-  sharpe_vector_60_months <- append(sharpe_vector_60_months, (mean((((1+one_montlhy_returns[(time_index-59):time_index, i])^12)-1)-risk_free)/sigma_df$`60 Months`[i]))
+  sharpe_vector_12_months <- append(sharpe_vector_12_months, (mean((((1+one_montlhy_returns[(time_index-11):time_index, i])^12)-1)-risk_free)/sigma_df$`12_Months`[i]))
+  sharpe_vector_24_months <- append(sharpe_vector_24_months, (mean((((1+one_montlhy_returns[(time_index-23):time_index, i])^12)-1)-risk_free)/sigma_df$`24_Months`[i]))
+  sharpe_vector_36_months <- append(sharpe_vector_36_months, (mean((((1+one_montlhy_returns[(time_index-35):time_index, i])^12)-1)-risk_free)/sigma_df$`36_Months`[i]))
+  sharpe_vector_48_months <- append(sharpe_vector_48_months, (mean((((1+one_montlhy_returns[(time_index-47):time_index, i])^12)-1)-risk_free)/sigma_df$`48_Months`[i]))
+  sharpe_vector_60_months <- append(sharpe_vector_60_months, (mean((((1+one_montlhy_returns[(time_index-59):time_index, i])^12)-1)-risk_free)/sigma_df$`60_Months`[i]))
 }
 
 sharpe_df <- as.data.frame(sharpe_vector_12_months)
@@ -285,16 +285,20 @@ names(ff3f_list) <- stock_vector
 
 
 
-summary(ff3f_list$stock_vector[1]$n_months[1][[2]]) 
+#summary(ff3f_list$stock_vector[1]$n_months[1][[2]]) 
 
 #looking at factor loading - are any statistically significant
 #now let's visualize the model error and the cumulative stock returns
-ggplot(data=TSLA_ff3f[[1]])+
-  geom_line(aes(x=Date, y=rr_spf), color="red4")+
-  geom_line(aes(x=Date, y=tr_cum), color="blue") #red is the error and blue is the stock return
+#ggplot(data=TSLA_ff3f[[1]])+
+#  geom_line(aes(x=Date, y=rr_spf), color="red4")+
+#  geom_line(aes(x=Date, y=tr_cum), color="blue") #red is the error and blue is the stock return
 
+# CREATE A PLOT TO BETTER VIEW THE CORRELATION MATRIX
 
+source("http://www.sthda.com/upload/rquery_cormat.r")
+# calling a function from the source above
 
+rquery.cormat(one_montlhy_returns[(time_index-23):time_index,])
 
 
 
